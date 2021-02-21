@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Assignment 1</title>
+    <meta name="author" content="Khalishah Nadhirah (1000668)">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+    <style> 
+      table { 
+          margin: 0 auto; 
+          font-size: large; 
+          border: 1px solid black; 
+      } 
+      h1 { 
+          text-align: center; 
+          color: #000000; 
+          font-size: xx-large;
+          font-family: Arial, Helvetica, sans-serif;
+      } 
+      h3 { 
+          text-align: center; 
+          color: #000000; 
+          font-size: 16px;
+          font-family: Arial, Helvetica, sans-serif;
+      }
+      th, td { 
+          font-weight: bold; 
+          border: 1px solid black;
+          padding: 10px;
+          text-align: center;
+          font-family: Arial, Helvetica, sans-serif;
+      } 
+      td { 
+          font-weight: lighter;
+      } 
+      caption {
+        padding: 10px;
+        caption-side: top-right;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      </style> 
+  </head>
+
+  <body>
+    <h1>Carpark Availability in Singapore</h1>
+    <h3>Khalishah Nadhirah Bte Abu Bakar (1000668)</h3>
+
+    <!-- Set table placeholders-->
+    <table id='table'> 
+      <caption>Data retrieved from <a href="https://data.gov.sg/dataset/carpark-availability">data.gov.sg</a></caption>
+      <tr> 
+          <th>Carpark Number</th> 
+          <th>Timestamp</th> 
+          <th>Lot Type</th> 
+          <th>Total Lots</th> 
+          <th>Lot Availability</th> 
+          <th>Utilization (%)</th> 
+      </tr> 
+
+    <script>
+      $(document).ready(function () { 
+        let url = 'https://api.data.gov.sg/v1/transport/carpark-availability'
+
+        // Fetch from JSON // 
+        $.getJSON(url, function (data) { 
+          let dat = data['items'][0]['carpark_data']
+          let carpark = ''; 
+
+          $.each(dat, function (key, value) { 
+              carpark += '<tr>'; 
+              carpark += '<td>' +  
+                value.carpark_number + '</td>'; 
+              carpark += '<td>' +  
+                value.update_datetime + '</td>'; 
+              carpark += '<td>' +  
+                value['carpark_info'][0]['lot_type'] + '</td>'; 
+              carpark += '<td class = "zerolots">' +  
+                value['carpark_info'][0]['total_lots'] + '</td>'; 
+              carpark += '<td>' +  
+                value['carpark_info'][0]['lots_available'] + '</td>'; 
+              let utilize = Math.round(((parseFloat(value['carpark_info'][0]['total_lots']) - parseFloat(value['carpark_info'][0]['lots_available'])) / parseFloat(value['carpark_info'][0]['total_lots']))*100) || '-';
+              carpark += '<td class = "above80">' +  
+                utilize + '</td>';
+              carpark += '</tr>';
+          }); 
+             
+          $('#table').append(carpark); 
+          
+          // Highlight red for Utilisation > 80% //
+          $('.above80').each(function(){
+            let cellValue = $(this).html();
+            const threshold = 80;
+            if(!isNaN(parseFloat(cellValue))) {
+              if (cellValue >= threshold) {
+                $(this).css('color','red');
+              } else {
+                $(this).css('color','black');
+              }
+            }
+          });
+
+          // Highlight blue for zero total lots //
+          $('.zerolots').each(function(){
+            let cellValue = $(this).html();
+            if(!isNaN(parseFloat(cellValue))) {
+              if (cellValue == 0) {
+                $(this).css('color','blue');
+              } else {
+                $(this).css('color','black');
+              }
+            }
+          });
+        }); 
+      });
+    </script>
+  </body>
+</html>
