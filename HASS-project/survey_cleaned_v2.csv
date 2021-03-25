@@ -1,0 +1,593 @@
+,Age,Gender,state,family_history,treatment,work_interfere,leave,mental_health_consequence,coworkers,supervisor,state_name,fips_CODE,fips
+122,23,Male,AL,Yes,Yes,Sometimes,Somewhat easy,Maybe,Some of them,Some of them,Alabama,01,US01
+128,41,Male,AL,No,Yes,Sometimes,Very easy,No,Yes,Yes,Alabama,01,US01
+170,23,Male,AL,Yes,Yes,Sometimes,Don't know,No,Yes,Yes,Alabama,01,US01
+203,32,Female,AL,No,No,Never,Don't know,Maybe,No,Some of them,Alabama,01,US01
+532,36,Male,AL,No,Yes,Sometimes,Very difficult,No,No,No,Alabama,01,US01
+571,38,Male,AL,Yes,Yes,Sometimes,Don't know,Maybe,Some of them,Some of them,Alabama,01,US01
+572,40,Male,AL,Yes,Yes,Sometimes,Don't know,Maybe,Some of them,No,Alabama,01,US01
+49,33,Male,AZ,No,Yes,Sometimes,Somewhat easy,Maybe,Some of them,No,Arizona,04,US04
+228,24,Male,AZ,No,Yes,Rarely,Don't know,No,Some of them,Yes,Arizona,04,US04
+360,33,Female,AZ,Yes,Yes,Sometimes,Somewhat easy,Maybe,Some of them,No,Arizona,04,US04
+450,31,Female,AZ,Yes,Yes,Sometimes,Somewhat easy,Maybe,Some of them,Yes,Arizona,04,US04
+453,39,Male,AZ,Yes,Yes,Often,Don't know,Yes,Some of them,No,Arizona,04,US04
+7,42,Female,CA,Yes,Yes,Sometimes,Somewhat difficult,Yes,Yes,Yes,California,06,US06
+16,33,Male,CA,Yes,Yes,Rarely,Don't know,No,Yes,Yes,California,06,US06
+18,35,Female,CA,Yes,Yes,Rarely,Don't know,No,Yes,Yes,California,06,US06
+33,40,Male,CA,Yes,No,Sometimes,Don't know,Yes,Some of them,No,California,06,US06
+37,33,Male,CA,No,No,Never,Don't know,Maybe,Some of them,Some of them,California,06,US06
+42,33,Male,CA,Yes,No,Never,Don't know,Yes,No,No,California,06,US06
+59,28,Male,CA,No,Yes,Sometimes,Somewhat easy,No,Some of them,Some of them,California,06,US06
+68,32,Male,CA,No,No,Rarely,Very difficult,Maybe,Yes,Some of them,California,06,US06
+75,32,Male,CA,Yes,No,Never,Very easy,No,Some of them,Some of them,California,06,US06
+78,27,Male,CA,Yes,Yes,Sometimes,Don't know,No,No,Some of them,California,06,US06
+83,31,Male,CA,No,No,Never,Don't know,No,Some of them,Some of them,California,06,US06
+89,45,Female,CA,No,Yes,Sometimes,Somewhat difficult,No,Yes,Yes,California,06,US06
+90,45,Male,CA,No,Yes,Sometimes,Don't know,Yes,Some of them,Some of them,California,06,US06
+92,35,Female,CA,Yes,Yes,Never,Somewhat easy,Maybe,No,No,California,06,US06
+94,35,Male,CA,No,Yes,Rarely,Don't know,No,Some of them,Yes,California,06,US06
+96,26,Male,CA,No,No,Rarely,Somewhat easy,No,Some of them,Yes,California,06,US06
+116,33,Male,CA,Yes,Yes,Sometimes,Somewhat easy,No,Some of them,Yes,California,06,US06
+123,31,Male,CA,Yes,Yes,Rarely,Very easy,No,Some of them,Yes,California,06,US06
+129,37,Female,CA,Yes,Yes,Often,Don't know,Maybe,Some of them,Some of them,California,06,US06
+139,35,Male,CA,No,No,Never,Don't know,Yes,Some of them,Some of them,California,06,US06
+141,32,Male,CA,No,No,Never,Don't know,Maybe,Some of them,Some of them,California,06,US06
+143,33,Male,CA,Yes,Yes,Sometimes,Don't know,Yes,No,No,California,06,US06
+146,31,Female,CA,No,Yes,Sometimes,Somewhat easy,No,Yes,Yes,California,06,US06
+149,37,Female,CA,No,Yes,Rarely,Somewhat easy,No,Some of them,Yes,California,06,US06
+154,26,Male,CA,Yes,Yes,Sometimes,Don't know,Yes,No,No,California,06,US06
+158,29,Male,CA,No,Yes,Sometimes,Don't know,Yes,Some of them,Some of them,California,06,US06
+160,24,Female,CA,Yes,Yes,Sometimes,Don't know,Maybe,Some of them,No,California,06,US06
+161,25,Male,CA,No,Yes,Rarely,Don't know,Maybe,No,No,California,06,US06
+163,25,Male,CA,Yes,Yes,Sometimes,Don't know,No,Yes,Yes,California,06,US06
+166,29,Female,CA,No,No,Sometimes,Very easy,Maybe,Some of them,Some of them,California,06,US06
+168,27,Male,CA,No,No,Sometimes,Very easy,Yes,No,No,California,06,US06
+171,54,Male,CA,Yes,Yes,Never,Don't know,No,No,Yes,California,06,US06
+172,22,Male,CA,No,No,Sometimes,Don't know,Maybe,Some of them,No,California,06,US06
+173,25,Others,CA,Yes,Yes,Sometimes,Don't know,Maybe,Some of them,Some of them,California,06,US06
+175,26,Male,CA,Yes,Yes,Often,Don't know,Maybe,Some of them,No,California,06,US06
+176,31,Male,CA,No,Yes,Sometimes,Don't know,No,Some of them,No,California,06,US06
+188,21,Female,CA,Yes,Yes,Rarely,Somewhat easy,Yes,Some of them,No,California,06,US06
+193,26,Female,CA,Yes,Yes,Never,Don't know,Maybe,No,No,California,06,US06
+194,27,Male,CA,No,Yes,Rarely,Don't know,No,Some of them,Yes,California,06,US06
+198,29,Others,CA,Yes,Yes,Sometimes,Very difficult,Yes,Some of them,No,California,06,US06
+199,25,Female,CA,No,Yes,Sometimes,Somewhat difficult,Yes,Some of them,No,California,06,US06
+206,35,Male,CA,Yes,Yes,Sometimes,Very difficult,Maybe,Some of them,Some of them,California,06,US06
+212,30,Male,CA,Yes,No,Often,Somewhat easy,Maybe,Some of them,Yes,California,06,US06
+215,21,Male,CA,No,No,Sometimes,Don't know,No,Some of them,Some of them,California,06,US06
+220,27,Female,CA,No,Yes,Sometimes,Somewhat difficult,Maybe,Some of them,Some of them,California,06,US06
+226,39,Male,CA,Yes,No,Often,Don't know,Yes,Some of them,Some of them,California,06,US06
+227,26,Female,CA,No,Yes,Sometimes,Somewhat difficult,Yes,Some of them,Some of them,California,06,US06
+232,34,Male,CA,No,Yes,Sometimes,Don't know,Yes,Some of them,No,California,06,US06
+235,33,Female,CA,No,No,Never,Very easy,Maybe,Some of them,Yes,California,06,US06
+237,26,Female,CA,Yes,No,Never,Somewhat difficult,Maybe,Some of them,No,California,06,US06
+239,57,Male,CA,Yes,Yes,Rarely,Don't know,Maybe,Some of them,Yes,California,06,US06
+241,58,Male,CA,No,Yes,Rarely,Somewhat easy,Maybe,Some of them,Yes,California,06,US06
+244,57,Male,CA,No,Yes,Sometimes,Don't know,Maybe,No,No,California,06,US06
+246,43,Male,CA,No,Yes,Sometimes,Somewhat easy,Yes,No,No,California,06,US06
+250,30,Male,CA,Yes,Yes,Often,Very easy,No,Yes,Yes,California,06,US06
+252,24,Female,CA,Yes,Yes,Sometimes,Don't know,No,Some of them,Some of them,California,06,US06
+255,25,Female,CA,Yes,Yes,Often,Somewhat difficult,Yes,Some of them,No,California,06,US06
+257,46,Male,CA,No,Yes,Sometimes,Don't know,Maybe,Some of them,No,California,06,US06
+259,47,Male,CA,Yes,Yes,Sometimes,Very easy,No,Some of them,Yes,California,06,US06
+266,62,Male,CA,No,No,Never,Don't know,Maybe,Some of them,Yes,California,06,US06
+270,26,Male,CA,Yes,Yes,Never,Don't know,Maybe,No,No,California,06,US06
+271,22,Female,CA,Yes,Yes,Sometimes,Don't know,No,Some of them,Some of them,California,06,US06
+274,28,Female,CA,Yes,Yes,Often,Don't know,Yes,Some of them,Some of them,California,06,US06
+275,36,Male,CA,Yes,Yes,Sometimes,Somewhat difficult,Yes,Some of them,Yes,California,06,US06
+280,32,Male,CA,No,Yes,Sometimes,Somewhat easy,No,Yes,Some of them,California,06,US06
+281,31,Male,CA,Yes,No,Sometimes,Somewhat easy,Maybe,No,Some of them,California,06,US06
+283,23,Male,CA,Yes,Yes,Rarely,Don't know,Maybe,Some of them,Yes,California,06,US06
+284,42,Others,CA,No,Yes,Often,Somewhat easy,Maybe,Yes,Yes,California,06,US06
+290,41,Male,CA,Yes,Yes,Often,Don't know,Maybe,Some of them,Some of them,California,06,US06
+302,29,Male,CA,Yes,No,Often,Don't know,No,Some of them,Yes,California,06,US06
+316,23,Female,CA,Yes,Yes,Sometimes,Somewhat easy,Yes,No,No,California,06,US06
+318,28,Female,CA,Yes,Yes,Rarely,Somewhat difficult,Maybe,No,Some of them,California,06,US06
+319,34,Male,CA,Yes,Yes,Sometimes,Somewhat easy,No,Some of them,Some of them,California,06,US06
+322,34,Female,CA,No,Yes,Sometimes,Somewhat easy,Maybe,Some of them,Yes,California,06,US06
+323,57,Male,CA,No,No,Never,Somewhat difficult,Yes,No,No,California,06,US06
+326,32,Male,CA,No,No,Never,Don't know,Maybe,Some of them,Some of them,California,06,US06
+336,37,Male,CA,Yes,Yes,Sometimes,Don't know,Maybe,Yes,Yes,California,06,US06
+351,35,Male,CA,Yes,Yes,Rarely,Very easy,No,Some of them,Yes,California,06,US06
+353,36,Male,CA,No,No,Never,Very easy,No,Some of them,Yes,California,06,US06
+356,26,Male,CA,Yes,Yes,Sometimes,Somewhat difficult,Yes,No,No,California,06,US06
+358,37,Female,CA,Yes,Yes,Rarely,Don't know,Maybe,Yes,Some of them,California,06,US06
+359,27,Female,CA,No,Yes,Sometimes,Somewhat easy,Yes,Some of them,No,California,06,US06
+361,36,Female,CA,No,Yes,Never,Don't know,Maybe,Some of them,Some of them,California,06,US06
+372,32,Female,CA,Yes,Yes,Often,Don't know,Yes,Some of them,Yes,California,06,US06
+373,35,Female,CA,No,Yes,Sometimes,Very easy,Maybe,Some of them,No,California,06,US06
+375,23,Male,CA,Yes,Yes,Sometimes,Very easy,No,Some of them,Yes,California,06,US06
+376,28,Others,CA,No,Yes,Sometimes,Somewhat difficult,Yes,Some of them,Some of them,California,06,US06
+385,48,Female,CA,Yes,No,Often,Very difficult,Yes,No,Some of them,California,06,US06
+390,40,Male,CA,No,No,Never,Don't know,Maybe,Some of them,Some of them,California,06,US06
+391,29,Female,CA,Yes,Yes,Rarely,Don't know,No,Yes,Yes,California,06,US06
+397,35,Male,CA,No,No,Sometimes,Don't know,Maybe,Some of them,No,California,06,US06
+407,56,Male,CA,No,Yes,Rarely,Somewhat easy,No,Yes,Yes,California,06,US06
+408,30,Male,CA,Yes,Yes,Sometimes,Very difficult,Yes,No,No,California,06,US06
+425,25,Female,CA,No,Yes,Often,Very easy,Maybe,Some of them,Some of them,California,06,US06
+434,22,Female,CA,Yes,Yes,Often,Don't know,Yes,No,No,California,06,US06
+437,28,Male,CA,Yes,Yes,Sometimes,Don't know,Maybe,Some of them,Some of them,California,06,US06
+438,29,Male,CA,No,No,Sometimes,Don't know,Yes,No,No,California,06,US06
+455,35,Male,CA,No,Yes,Sometimes,Very difficult,Maybe,Some of them,Some of them,California,06,US06
+459,26,Male,CA,No,Yes,Rarely,Don't know,No,Some of them,Some of them,California,06,US06
+482,30,Male,CA,Yes,Yes,Sometimes,Don't know,Maybe,Some of them,No,California,06,US06
+486,42,Male,CA,Yes,Yes,Sometimes,Don't know,Maybe,Some of them,Some of them,California,06,US06
+494,34,Female,CA,No,No,Sometimes,Very easy,No,Some of them,Yes,California,06,US06
+504,27,Male,CA,No,No,Never,Don't know,Maybe,Some of them,Yes,California,06,US06
+508,27,Male,CA,No,Yes,Sometimes,Very difficult,Maybe,Some of them,No,California,06,US06
+518,31,Male,CA,No,Yes,Sometimes,Somewhat easy,Maybe,Some of them,No,California,06,US06
+527,28,Female,CA,Yes,Yes,Sometimes,Don't know,Maybe,Some of them,Some of them,California,06,US06
+538,45,Male,CA,No,No,Never,Don't know,Yes,Some of them,No,California,06,US06
+540,33,Female,CA,No,Yes,Often,Don't know,Yes,No,No,California,06,US06
+552,32,Male,CA,No,Yes,Sometimes,Somewhat difficult,Maybe,Some of them,Some of them,California,06,US06
+557,46,Female,CA,No,Yes,Often,Don't know,Maybe,Some of them,Some of them,California,06,US06
+558,32,Male,CA,Yes,No,Sometimes,Don't know,Maybe,Yes,Yes,California,06,US06
+565,38,Male,CA,Yes,Yes,Sometimes,Don't know,Maybe,Some of them,No,California,06,US06
+579,46,Male,CA,Yes,Yes,Often,Don't know,Maybe,Some of them,No,California,06,US06
+582,60,Male,CA,No,Yes,Often,Somewhat easy,Maybe,Some of them,No,California,06,US06
+587,30,Male,CA,Yes,Yes,Sometimes,Very easy,No,Yes,Yes,California,06,US06
+588,30,Male,CA,Yes,Yes,Often,Don't know,No,Some of them,Yes,California,06,US06
+592,34,Male,CA,Yes,Yes,Sometimes,Somewhat difficult,Yes,No,No,California,06,US06
+130,32,Male,CO,No,No,Never,Very easy,No,Yes,Yes,Colorado,08,US08
+162,30,Female,CO,No,No,Never,Somewhat easy,Maybe,No,Some of them,Colorado,08,US08
+197,27,Female,CO,Yes,Yes,Rarely,Don't know,Maybe,No,Yes,Colorado,08,US08
+277,36,Male,CO,No,Yes,Rarely,Don't know,No,Some of them,Some of them,Colorado,08,US08
+343,29,Male,CO,No,No,Never,Don't know,Maybe,Some of them,Some of them,Colorado,08,US08
+366,25,Male,CO,Yes,Yes,Sometimes,Don't know,Maybe,Some of them,Some of them,Colorado,08,US08
+409,31,Male,CO,No,Yes,Never,Very easy,Maybe,No,No,Colorado,08,US08
+426,51,Male,CO,No,No,Never,Somewhat difficult,No,Some of them,Some of them,Colorado,08,US08
+8,36,Male,CT,Yes,No,Never,Don't know,No,Yes,Yes,Connecticut,09,US09
+481,46,Others,CT,No,Yes,Often,Don't know,Yes,Some of them,Some of them,Connecticut,09,US09
+44,29,Female,FL,No,Yes,Sometimes,Don't know,Maybe,Some of them,Some of them,Florida,12,US12
+99,41,Male,FL,No,Yes,Often,Very difficult,Maybe,Some of them,Some of them,Florida,12,US12
+115,34,Male,FL,Yes,Yes,Sometimes,Somewhat difficult,Maybe,Some of them,Some of them,Florida,12,US12
+127,30,Male,FL,No,Yes,Sometimes,Don't know,No,Yes,Yes,Florida,12,US12
+324,39,Male,FL,No,No,Rarely,Don't know,No,Some of them,Some of them,Florida,12,US12
+382,39,Male,FL,Yes,Yes,Sometimes,Very difficult,Maybe,Some of them,Yes,Florida,12,US12
+492,31,Female,FL,Yes,Yes,Often,Very difficult,Yes,No,No,Florida,12,US12
+501,36,Male,FL,No,No,Never,Very easy,No,Some of them,Some of them,Florida,12,US12
+505,33,Male,FL,No,No,Never,Very easy,Maybe,Some of them,Yes,Florida,12,US12
+509,44,Male,FL,No,No,Never,Somewhat difficult,No,No,No,Florida,12,US12
+577,33,Male,FL,No,Yes,Often,Don't know,Maybe,Some of them,No,Florida,12,US12
+584,43,Female,FL,Yes,Yes,Rarely,Don't know,No,Some of them,Yes,Florida,12,US12
+62,29,Male,GA,No,No,Never,Don't know,Yes,No,No,Georgia,13,US13
+117,27,Male,GA,No,No,Never,Somewhat easy,No,Some of them,Yes,Georgia,13,US13
+183,28,Male,GA,Yes,Yes,Sometimes,Somewhat difficult,Maybe,No,No,Georgia,13,US13
+278,28,Male,GA,No,Yes,Sometimes,Somewhat difficult,Maybe,Some of them,No,Georgia,13,US13
+312,30,Male,GA,No,Yes,Often,Somewhat difficult,No,Yes,Yes,Georgia,13,US13
+395,43,Male,GA,No,Yes,Sometimes,Very difficult,Maybe,Some of them,Yes,Georgia,13,US13
+411,30,Male,GA,No,No,Never,Very easy,No,Some of them,Yes,Georgia,13,US13
+440,35,Female,GA,Yes,Yes,Sometimes,Somewhat difficult,Maybe,Some of them,Yes,Georgia,13,US13
+462,49,Male,GA,Yes,No,Never,Don't know,No,Yes,Yes,Georgia,13,US13
+483,30,Female,GA,Yes,Yes,Sometimes,Somewhat easy,Maybe,Some of them,Some of them,Georgia,13,US13
+489,40,Female,GA,Yes,No,Never,Don't know,Yes,No,No,Georgia,13,US13
+213,55,Male,ID,Yes,Yes,Sometimes,Don't know,Yes,No,No,Idaho,16,US16
+0,37,Female,IL,No,Yes,Often,Somewhat easy,No,Some of them,Yes,Illinois,17,US17
+5,42,Female,IL,Yes,Yes,Sometimes,Very difficult,Maybe,Yes,Yes,Illinois,17,US17
+9,29,Female,IL,Yes,Yes,Rarely,Somewhat easy,No,Yes,Some of them,Illinois,17,US17
+27,30,Male,IL,Yes,Yes,Rarely,Don't know,Maybe,Some of them,Yes,Illinois,17,US17
+67,33,Male,IL,Yes,Yes,Sometimes,Very easy,Maybe,Yes,Some of them,Illinois,17,US17
+76,36,Male,IL,No,No,Never,Don't know,No,Some of them,Some of them,Illinois,17,US17
+77,25,Male,IL,Yes,Yes,Sometimes,Somewhat difficult,Maybe,Some of them,Some of them,Illinois,17,US17
+81,25,Male,IL,Yes,Yes,Sometimes,Very easy,Maybe,Some of them,No,Illinois,17,US17
+150,30,Others,IL,Yes,Yes,Rarely,Somewhat easy,Maybe,Some of them,Yes,Illinois,17,US17
+247,29,Male,IL,No,Yes,Rarely,Don't know,Maybe,Some of them,No,Illinois,17,US17
+267,36,Male,IL,Yes,Yes,Sometimes,Somewhat difficult,Maybe,Some of them,Yes,Illinois,17,US17
+289,34,Male,IL,Yes,Yes,Sometimes,Don't know,Maybe,Some of them,Some of them,Illinois,17,US17
+328,28,Male,IL,No,Yes,Sometimes,Don't know,No,Some of them,Yes,Illinois,17,US17
+357,21,Male,IL,No,Yes,Often,Don't know,Yes,Some of them,Some of them,Illinois,17,US17
+384,38,Male,IL,No,No,Never,Very difficult,Yes,No,No,Illinois,17,US17
+400,40,Male,IL,No,No,Rarely,Don't know,No,Some of them,Some of them,Illinois,17,US17
+403,23,Male,IL,No,No,Never,Don't know,Maybe,Some of them,Some of them,Illinois,17,US17
+405,46,Male,IL,No,Yes,Rarely,Somewhat easy,Yes,No,No,Illinois,17,US17
+467,30,Female,IL,Yes,Yes,Sometimes,Very easy,No,Some of them,No,Illinois,17,US17
+498,41,Male,IL,No,Yes,Often,Very difficult,No,Some of them,Some of them,Illinois,17,US17
+500,23,Female,IL,Yes,No,Sometimes,Somewhat difficult,Yes,No,Some of them,Illinois,17,US17
+516,41,Male,IL,No,No,Rarely,Don't know,Maybe,Some of them,No,Illinois,17,US17
+559,29,Male,IL,Yes,Yes,Sometimes,Don't know,Maybe,Some of them,No,Illinois,17,US17
+591,32,Male,IL,Yes,Yes,Often,Somewhat difficult,No,Some of them,Yes,Illinois,17,US17
+593,25,Male,IL,Yes,Yes,Sometimes,Don't know,Maybe,Some of them,No,Illinois,17,US17
+1,44,Male,IN,No,No,Rarely,Don't know,Maybe,No,No,Indiana,18,US18
+25,30,Male,IN,No,Yes,Sometimes,Don't know,No,No,No,Indiana,18,US18
+50,30,Male,IN,No,Yes,Often,Somewhat easy,No,Yes,Yes,Indiana,18,US18
+73,37,Male,IN,Yes,Yes,Rarely,Somewhat easy,Maybe,Some of them,Yes,Indiana,18,US18
+177,33,Male,IN,Yes,Yes,Sometimes,Don't know,Maybe,Some of them,Some of them,Indiana,18,US18
+184,21,Male,IN,Yes,Yes,Rarely,Don't know,No,Yes,Yes,Indiana,18,US18
+195,31,Others,IN,Yes,Yes,Sometimes,Don't know,No,Yes,Yes,Indiana,18,US18
+291,35,Male,IN,No,No,Never,Very easy,No,Some of them,Yes,Indiana,18,US18
+421,33,Male,IN,No,No,Never,Somewhat easy,No,Some of them,Yes,Indiana,18,US18
+461,40,Male,IN,Yes,Yes,Rarely,Don't know,No,Yes,Yes,Indiana,18,US18
+471,42,Male,IN,Yes,Yes,Sometimes,Don't know,Maybe,Some of them,Yes,Indiana,18,US18
+476,39,Male,IN,Yes,Yes,Sometimes,Somewhat easy,No,Some of them,Yes,Indiana,18,US18
+485,37,Male,IN,Yes,No,Sometimes,Somewhat easy,Maybe,Some of them,Some of them,Indiana,18,US18
+488,19,Male,IN,No,No,Sometimes,Don't know,No,Some of them,Yes,Indiana,18,US18
+513,48,Male,IN,No,No,Never,Don't know,Maybe,Some of them,Yes,Indiana,18,US18
+517,25,Male,IN,No,No,Never,Don't know,No,Some of them,Yes,Indiana,18,US18
+525,38,Male,IN,Yes,No,Never,Don't know,Yes,Some of them,No,Indiana,18,US18
+526,32,Male,IN,No,Yes,Sometimes,Don't know,No,Some of them,Yes,Indiana,18,US18
+550,35,Male,IN,Yes,Yes,Often,Somewhat easy,Yes,No,Some of them,Indiana,18,US18
+566,72,Female,IN,Yes,Yes,Never,Somewhat easy,Maybe,Some of them,Yes,Indiana,18,US18
+567,35,Female,IN,Yes,Yes,Sometimes,Don't know,Maybe,Some of them,Some of them,Indiana,18,US18
+15,41,Male,IA,No,Yes,Never,Don't know,Maybe,No,No,Iowa,19,US19
+32,44,Male,IA,Yes,Yes,Sometimes,Don't know,Yes,Some of them,No,Iowa,19,US19
+70,39,Male,IA,No,Yes,Often,Somewhat easy,No,Yes,Yes,Iowa,19,US19
+101,24,Male,KS,No,No,Never,Don't know,No,Some of them,Yes,Kansas,20,US20
+258,42,Male,KS,No,No,Never,Very difficult,Maybe,Yes,Yes,Kansas,20,US20
+119,21,Male,KY,No,Yes,Often,Don't know,Maybe,No,No,Kentucky,21,US21
+224,36,Male,KY,No,No,Rarely,Somewhat easy,Maybe,No,No,Kentucky,21,US21
+307,24,Male,KY,No,No,Never,Don't know,Maybe,Some of them,No,Kentucky,21,US21
+369,35,Female,LA,No,Yes,Sometimes,Very difficult,Yes,No,Some of them,Louisiana,22,US22
+464,40,Male,ME,Yes,Yes,Sometimes,Don't know,Maybe,Some of them,Yes,Maine,23,US23
+11,46,Male,MD,Yes,No,Sometimes,Very easy,No,Yes,Yes,Maryland,24,US24
+314,35,Male,MD,Yes,Yes,Rarely,Very difficult,Yes,Some of them,No,Maryland,24,US24
+374,29,Male,MD,No,No,Never,Very easy,Yes,Yes,Yes,Maryland,24,US24
+580,46,Male,MD,Yes,Yes,Sometimes,Don't know,No,Some of them,Yes,Maryland,24,US24
+14,46,Male,MA,No,Yes,Often,Don't know,Maybe,Some of them,Yes,Massachusetts,25,US25
+36,23,Others,MA,No,No,Rarely,Somewhat difficult,Maybe,Yes,Yes,Massachusetts,25,US25
+51,44,Female,MA,No,No,Never,Don't know,Maybe,No,Some of them,Massachusetts,25,US25
+84,26,Male,MA,Yes,No,Rarely,Don't know,Maybe,Some of them,Yes,Massachusetts,25,US25
+88,32,Female,MA,No,Yes,Often,Very easy,No,Yes,Yes,Massachusetts,25,US25
+100,30,Male,MA,No,Yes,Often,Somewhat easy,Maybe,Yes,Yes,Massachusetts,25,US25
+103,32,Female,MA,No,Yes,Sometimes,Very easy,No,Yes,Yes,Massachusetts,25,US25
+147,26,Male,MA,No,No,Rarely,Don't know,No,Some of them,Yes,Massachusetts,25,US25
+174,27,Male,MA,No,Yes,Sometimes,Don't know,No,No,No,Massachusetts,25,US25
+189,45,Male,MA,No,Yes,Never,Don't know,Maybe,No,Some of them,Massachusetts,25,US25
+210,21,Male,MA,Yes,No,Never,Don't know,No,Some of them,Some of them,Massachusetts,25,US25
+222,23,Female,MA,No,Yes,Sometimes,Don't know,Maybe,Some of them,No,Massachusetts,25,US25
+229,43,Male,MA,Yes,Yes,Often,Very easy,No,Yes,Yes,Massachusetts,25,US25
+286,26,Female,MA,Yes,Yes,Sometimes,Somewhat difficult,No,Yes,Yes,Massachusetts,25,US25
+292,40,Female,MA,No,No,Never,Somewhat easy,Maybe,Yes,Yes,Massachusetts,25,US25
+321,56,Male,MA,Yes,Yes,Rarely,Don't know,Yes,Some of them,Some of them,Massachusetts,25,US25
+4,35,Female,MI,Yes,Yes,Sometimes,Somewhat difficult,Maybe,Some of them,No,Michigan,26,US26
+93,28,Male,MI,Yes,Yes,Sometimes,Somewhat easy,Maybe,Some of them,No,Michigan,26,US26
+104,27,Female,MI,Yes,Yes,Sometimes,Very difficult,No,Some of them,No,Michigan,26,US26
+107,28,Male,MI,No,Yes,Sometimes,Very difficult,Yes,No,Some of them,Michigan,26,US26
+181,32,Male,MI,Yes,Yes,Rarely,Don't know,No,Some of them,Yes,Michigan,26,US26
+234,36,Male,MI,No,No,Sometimes,Somewhat easy,No,Yes,Yes,Michigan,26,US26
+288,33,Male,MI,Yes,No,Sometimes,Very easy,No,Some of them,Yes,Michigan,26,US26
+293,29,Female,MI,No,No,Never,Don't know,Maybe,Some of them,Some of them,Michigan,26,US26
+305,32,Male,MI,No,No,Sometimes,Don't know,Maybe,Some of them,Some of them,Michigan,26,US26
+313,35,Male,MI,No,No,Never,Don't know,No,Some of them,Some of them,Michigan,26,US26
+320,28,Male,MI,Yes,Yes,Sometimes,Don't know,Yes,Some of them,Some of them,Michigan,26,US26
+352,37,Male,MI,Yes,Yes,Sometimes,Don't know,Maybe,Some of them,Some of them,Michigan,26,US26
+371,38,Male,MI,No,No,Never,Somewhat easy,Maybe,Some of them,Yes,Michigan,26,US26
+387,40,Male,MI,No,No,Sometimes,Somewhat easy,Yes,Some of them,No,Michigan,26,US26
+388,35,Male,MI,Yes,Yes,Sometimes,Don't know,No,Some of them,Yes,Michigan,26,US26
+460,43,Male,MI,No,No,Sometimes,Very difficult,Yes,No,No,Michigan,26,US26
+545,45,Female,MI,No,Yes,Rarely,Don't know,No,Some of them,Some of them,Michigan,26,US26
+562,26,Female,MI,Yes,Yes,Rarely,Don't know,Maybe,No,No,Michigan,26,US26
+47,29,Male,MN,No,No,Never,Don't know,No,Yes,Yes,Minnesota,27,US27
+63,33,Male,MN,Yes,Yes,Sometimes,Very easy,No,Yes,Yes,Minnesota,27,US27
+86,34,Male,MN,No,No,Never,Very easy,Maybe,Some of them,Some of them,Minnesota,27,US27
+98,34,Female,MN,No,Yes,Sometimes,Somewhat easy,Maybe,Some of them,Yes,Minnesota,27,US27
+131,23,Female,MN,Yes,Yes,Never,Don't know,No,Some of them,Yes,Minnesota,27,US27
+133,28,Male,MN,No,Yes,Rarely,Very easy,Maybe,Some of them,Some of them,Minnesota,27,US27
+272,26,Female,MN,Yes,Yes,Often,Somewhat difficult,Maybe,No,No,Minnesota,27,US27
+331,38,Male,MN,No,Yes,Sometimes,Don't know,No,Some of them,Yes,Minnesota,27,US27
+402,51,Male,MN,No,No,Never,Very easy,No,Yes,Yes,Minnesota,27,US27
+468,39,Male,MN,No,Yes,Rarely,Very easy,Maybe,Some of them,Yes,Minnesota,27,US27
+490,31,Male,MN,Yes,Yes,Rarely,Don't know,No,Yes,Yes,Minnesota,27,US27
+493,36,Male,MN,No,No,Never,Don't know,Yes,No,No,Minnesota,27,US27
+541,25,Male,MN,Yes,Yes,Sometimes,Very easy,No,Yes,Yes,Minnesota,27,US27
+554,30,Male,MN,Yes,Yes,Rarely,Don't know,No,No,No,Minnesota,27,US27
+561,40,Female,MN,Yes,Yes,Sometimes,Somewhat easy,No,Yes,Yes,Minnesota,27,US27
+581,25,Male,MN,Yes,Yes,Sometimes,Somewhat easy,Yes,Some of them,Some of them,Minnesota,27,US27
+218,33,Male,MS,No,Yes,Often,Somewhat easy,Yes,Some of them,Some of them,Mississippi,28,US28
+48,24,Male,MO,Yes,No,Rarely,Somewhat easy,Maybe,Some of them,No,Missouri,29,US29
+54,35,Male,MO,Yes,No,Rarely,Somewhat easy,No,Some of them,Yes,Missouri,29,US29
+60,45,Male,MO,Yes,Yes,Rarely,Very easy,No,Yes,Yes,Missouri,29,US29
+87,31,Male,MO,No,No,Never,Don't know,Maybe,No,Some of them,Missouri,29,US29
+332,19,Others,MO,Yes,Yes,Often,Somewhat difficult,Maybe,No,No,Missouri,29,US29
+345,25,Male,MO,Yes,Yes,Never,Don't know,Yes,Some of them,Yes,Missouri,29,US29
+379,35,Male,MO,No,Yes,Often,Very difficult,Yes,Some of them,Some of them,Missouri,29,US29
+439,31,Male,MO,Yes,No,Never,Very easy,No,Some of them,Yes,Missouri,29,US29
+69,27,Male,NE,No,No,Never,Don't know,No,Yes,Yes,Nebraska,31,US31
+365,25,Male,NE,Yes,Yes,Sometimes,Don't know,Maybe,Some of them,Some of them,Nebraska,31,US31
+196,26,Male,NV,No,Yes,Sometimes,Don't know,Yes,Some of them,No,Nevada,32,US32
+380,28,Male,NV,No,Yes,Never,Don't know,Maybe,Some of them,Some of them,Nevada,32,US32
+113,38,Male,NH,No,No,Sometimes,Don't know,Maybe,Some of them,Yes,New Hampshire,33,US33
+207,33,Male,NH,Yes,Yes,Never,Don't know,Yes,Yes,Some of them,New Hampshire,33,US33
+296,34,Male,NH,Yes,Yes,Sometimes,Don't know,Maybe,Some of them,Some of them,New Hampshire,33,US33
+205,28,Male,NJ,Yes,Yes,Sometimes,Don't know,Maybe,Some of them,No,New Jersey,34,US34
+219,34,Male,NJ,No,No,Sometimes,Don't know,Maybe,Yes,Yes,New Jersey,34,US34
+507,29,Female,NJ,No,Yes,Often,Somewhat easy,No,Some of them,Yes,New Jersey,34,US34
+511,34,Male,NJ,No,No,Never,Somewhat easy,Maybe,No,Some of them,New Jersey,34,US34
+522,37,Female,NJ,Yes,Yes,Sometimes,Don't know,Yes,No,No,New Jersey,34,US34
+12,29,Male,NY,Yes,Yes,Sometimes,Somewhat difficult,Maybe,Some of them,Some of them,New York,36,US36
+23,27,Male,NY,No,Yes,Rarely,Very easy,No,Yes,Yes,New York,36,US36
+30,27,Male,NY,Yes,Yes,Rarely,Don't know,Maybe,No,No,New York,36,US36
+31,24,Male,NY,Yes,Yes,Sometimes,Don't know,No,Some of them,Yes,New York,36,US36
+35,34,Male,NY,No,No,Rarely,Don't know,Maybe,Some of them,No,New York,36,US36
+40,38,Male,NY,Yes,No,Sometimes,Don't know,No,Yes,Some of them,New York,36,US36
+41,27,Female,NY,No,Yes,Often,Very easy,Maybe,Some of them,Yes,New York,36,US36
+45,31,Male,NY,No,No,Never,Somewhat easy,No,Some of them,Yes,New York,36,US36
+53,29,Male,NY,No,No,Never,Somewhat easy,No,Some of them,Yes,New York,36,US36
+58,22,Male,NY,No,Yes,Sometimes,Don't know,Yes,No,No,New York,36,US36
+61,32,Male,NY,No,No,Never,Don't know,Maybe,Some of them,Some of them,New York,36,US36
+82,25,Female,NY,Yes,Yes,Sometimes,Don't know,Yes,Some of them,Some of them,New York,36,US36
+95,35,Female,NY,No,No,Never,Don't know,Maybe,Some of them,No,New York,36,US36
+105,29,Female,NY,No,Yes,Never,Somewhat difficult,Maybe,Some of them,No,New York,36,US36
+121,29,Female,NY,Yes,Yes,Rarely,Don't know,Maybe,Some of them,No,New York,36,US36
+135,35,Male,NY,Yes,Yes,Sometimes,Somewhat difficult,Yes,No,Some of them,New York,36,US36
+140,45,Male,NY,Yes,Yes,Sometimes,Don't know,Maybe,Some of them,Some of them,New York,36,US36
+144,37,Male,NY,No,No,Never,Don't know,No,Some of them,Yes,New York,36,US36
+145,23,Female,NY,No,Yes,Sometimes,Don't know,No,Some of them,Some of them,New York,36,US36
+156,22,Female,NY,Yes,Yes,Often,Somewhat easy,Maybe,No,Some of them,New York,36,US36
+192,34,Female,NY,Yes,Yes,Rarely,Very difficult,Maybe,Some of them,Some of them,New York,36,US36
+214,28,Female,NY,No,Yes,Rarely,Don't know,Maybe,No,No,New York,36,US36
+217,24,Female,NY,Yes,Yes,Rarely,Very easy,Yes,No,Some of them,New York,36,US36
+249,28,Female,NY,Yes,Yes,Sometimes,Don't know,Yes,Some of them,No,New York,36,US36
+253,23,Female,NY,Yes,Yes,Often,Don't know,Maybe,Some of them,Some of them,New York,36,US36
+260,33,Female,NY,No,Yes,Sometimes,Very easy,No,Some of them,Some of them,New York,36,US36
+285,27,Female,NY,No,No,Sometimes,Don't know,No,Some of them,Yes,New York,36,US36
+301,31,Male,NY,Yes,Yes,Rarely,Somewhat difficult,Yes,Some of them,No,New York,36,US36
+334,49,Male,NY,Yes,Yes,Sometimes,Somewhat easy,Maybe,Some of them,Yes,New York,36,US36
+339,26,Male,NY,No,No,Never,Don't know,Yes,Some of them,No,New York,36,US36
+340,32,Male,NY,No,Yes,Sometimes,Very easy,No,Yes,Yes,New York,36,US36
+341,29,Male,NY,No,Yes,Often,Very easy,No,Yes,Yes,New York,36,US36
+367,33,Male,NY,No,Yes,Sometimes,Don't know,Maybe,Some of them,Some of them,New York,36,US36
+393,24,Female,NY,Yes,Yes,Often,Very easy,No,Some of them,Yes,New York,36,US36
+396,31,Female,NY,Yes,Yes,Sometimes,Somewhat difficult,No,Yes,Yes,New York,36,US36
+465,28,Male,NY,Yes,Yes,Often,Don't know,Maybe,Some of them,Some of them,New York,36,US36
+535,43,Male,NY,No,No,Never,Don't know,No,Yes,Some of them,New York,36,US36
+543,38,Male,NY,Yes,Yes,Rarely,Somewhat easy,Yes,No,Yes,New York,36,US36
+546,20,Female,NY,No,Yes,Sometimes,Don't know,No,Some of them,Some of them,New York,36,US36
+549,26,Female,NY,Yes,No,Sometimes,Don't know,Maybe,No,No,New York,36,US36
+564,32,Female,NY,No,Yes,Sometimes,Don't know,Maybe,Some of them,No,New York,36,US36
+13,31,Male,NC,No,No,Never,Somewhat difficult,No,Some of them,Some of them,North Carolina,37,US37
+114,37,Female,NC,Yes,Yes,Sometimes,Somewhat easy,No,Some of them,Some of them,North Carolina,37,US37
+120,32,Male,NC,Yes,Yes,Sometimes,Don't know,Maybe,Yes,Yes,North Carolina,37,US37
+268,29,Male,NC,No,Yes,Sometimes,Very easy,No,No,Some of them,North Carolina,37,US37
+327,23,Male,NC,Yes,No,Sometimes,Don't know,Maybe,No,No,North Carolina,37,US37
+333,33,Female,NC,Yes,Yes,Rarely,Somewhat easy,No,Some of them,Yes,North Carolina,37,US37
+355,38,Female,NC,Yes,Yes,Sometimes,Don't know,Maybe,No,No,North Carolina,37,US37
+491,40,Male,NC,Yes,No,Sometimes,Don't know,Yes,Some of them,Some of them,North Carolina,37,US37
+551,32,Male,NC,No,No,Rarely,Don't know,Maybe,No,Some of them,North Carolina,37,US37
+555,29,Male,NC,No,Yes,Sometimes,Don't know,Yes,Some of them,Some of them,North Carolina,37,US37
+589,29,Male,NC,Yes,Yes,Sometimes,Don't know,Yes,Some of them,No,North Carolina,37,US37
+6,31,Male,OH,No,Yes,Sometimes,Don't know,No,Some of them,Yes,Ohio,39,US39
+19,34,Male,OH,No,Yes,Sometimes,Somewhat difficult,No,Some of them,No,Ohio,39,US39
+111,36,Male,OH,No,Yes,Sometimes,Don't know,Maybe,Some of them,Some of them,Ohio,39,US39
+118,40,Male,OH,No,Yes,Sometimes,Don't know,Yes,No,No,Ohio,39,US39
+164,30,Male,OH,No,No,Never,Don't know,Maybe,Some of them,Some of them,Ohio,39,US39
+182,329,Male,OH,No,Yes,Often,Don't know,Maybe,Some of them,No,Ohio,39,US39
+208,33,Male,OH,Yes,Yes,Often,Somewhat easy,Yes,No,No,Ohio,39,US39
+209,31,Female,OH,Yes,Yes,Rarely,Very difficult,Yes,No,No,Ohio,39,US39
+242,29,Male,OH,No,No,Sometimes,Very difficult,Yes,No,No,Ohio,39,US39
+243,34,Male,OH,No,No,Sometimes,Very difficult,Maybe,Some of them,Yes,Ohio,39,US39
+256,35,Female,OH,No,Yes,Sometimes,Don't know,Yes,No,No,Ohio,39,US39
+264,46,Male,OH,No,Yes,Rarely,Don't know,No,Some of them,Yes,Ohio,39,US39
+294,31,Male,OH,Yes,Yes,Sometimes,Somewhat easy,Maybe,Yes,Yes,Ohio,39,US39
+295,43,Male,OH,No,Yes,Sometimes,Somewhat easy,No,Yes,Yes,Ohio,39,US39
+297,29,Male,OH,Yes,Yes,Sometimes,Somewhat difficult,Yes,Some of them,Some of them,Ohio,39,US39
+329,29,Female,OH,Yes,Yes,Rarely,Don't know,Yes,No,No,Ohio,39,US39
+337,23,Male,OH,No,Yes,Often,Somewhat easy,No,Some of them,Yes,Ohio,39,US39
+349,36,Male,OH,No,Yes,Sometimes,Very difficult,Maybe,Some of them,Some of them,Ohio,39,US39
+428,25,Female,OH,Yes,Yes,Sometimes,Don't know,Yes,No,No,Ohio,39,US39
+473,26,Female,OH,No,Yes,Sometimes,Don't know,Maybe,Some of them,No,Ohio,39,US39
+495,28,Female,OH,Yes,Yes,Sometimes,Somewhat easy,Yes,Some of them,Some of them,Ohio,39,US39
+514,39,Female,OH,No,Yes,Sometimes,Don't know,Maybe,Some of them,Some of them,Ohio,39,US39
+515,43,Male,OH,No,No,Sometimes,Don't know,Maybe,No,No,Ohio,39,US39
+536,26,Male,OH,Yes,No,Sometimes,Don't know,Maybe,Some of them,No,Ohio,39,US39
+563,29,Male,OH,No,No,Never,Don't know,No,Some of them,Yes,Ohio,39,US39
+573,44,Male,OH,Yes,Yes,Sometimes,Don't know,Maybe,Some of them,Some of them,Ohio,39,US39
+79,26,Male,OK,No,No,Often,Don't know,Yes,Some of them,Yes,Oklahoma,40,US40
+180,26,Male,OK,Yes,Yes,Rarely,Don't know,Maybe,Some of them,Yes,Oklahoma,40,US40
+211,26,Female,OK,No,Yes,Sometimes,Somewhat difficult,No,Some of them,Some of them,Oklahoma,40,US40
+569,27,Female,OK,No,No,Never,Don't know,No,Some of them,Yes,Oklahoma,40,US40
+43,34,Female,OR,Yes,Yes,Rarely,Don't know,Yes,Some of them,Some of them,Oregon,41,US41
+55,35,Male,OR,Yes,Yes,Sometimes,Somewhat easy,No,Some of them,Yes,Oregon,41,US41
+66,32,Male,OR,No,Yes,Rarely,Don't know,Yes,No,Yes,Oregon,41,US41
+71,38,Male,OR,Yes,Yes,Sometimes,Don't know,Maybe,Some of them,Yes,Oregon,41,US41
+97,27,Female,OR,Yes,Yes,Sometimes,Very easy,No,Some of them,Some of them,Oregon,41,US41
+152,35,Male,OR,No,Yes,Rarely,Don't know,No,Some of them,Yes,Oregon,41,US41
+159,32,Male,OR,No,No,Never,Somewhat easy,No,Some of them,Yes,Oregon,41,US41
+204,26,Male,OR,Yes,Yes,Often,Somewhat difficult,Maybe,Some of them,Yes,Oregon,41,US41
+233,27,Male,OR,Yes,Yes,Sometimes,Don't know,Yes,No,No,Oregon,41,US41
+240,31,Male,OR,No,Yes,Sometimes,Very easy,No,Some of them,Yes,Oregon,41,US41
+276,27,Male,OR,Yes,Yes,Sometimes,Don't know,No,Some of them,No,Oregon,41,US41
+279,39,Male,OR,No,Yes,Sometimes,Don't know,Yes,Yes,Yes,Oregon,41,US41
+299,29,Male,OR,Yes,No,Never,Don't know,No,Some of them,Yes,Oregon,41,US41
+317,31,Female,OR,Yes,Yes,Sometimes,Don't know,No,Some of them,Some of them,Oregon,41,US41
+354,29,Female,OR,Yes,Yes,Sometimes,Don't know,Maybe,Some of them,Yes,Oregon,41,US41
+427,49,Male,OR,Yes,Yes,Sometimes,Somewhat difficult,Yes,No,No,Oregon,41,US41
+431,53,Male,OR,No,Yes,Rarely,Don't know,Maybe,Some of them,No,Oregon,41,US41
+432,33,Male,OR,Yes,Yes,Sometimes,Somewhat easy,No,Yes,Yes,Oregon,41,US41
+479,38,Female,OR,Yes,No,Sometimes,Don't know,No,Some of them,Yes,Oregon,41,US41
+487,25,Female,OR,No,No,Never,Don't know,Maybe,Some of them,Yes,Oregon,41,US41
+506,28,Female,OR,No,Yes,Rarely,Very easy,No,Some of them,Some of them,Oregon,41,US41
+570,56,Female,OR,No,No,Rarely,Don't know,Maybe,No,No,Oregon,41,US41
+585,32,Male,OR,No,No,Never,Somewhat easy,No,No,Some of them,Oregon,41,US41
+20,31,Male,PA,Yes,No,Rarely,Somewhat difficult,Yes,No,No,Pennsylvania,42,US42
+106,28,Male,PA,No,No,Rarely,Don't know,No,Some of them,Some of them,Pennsylvania,42,US42
+108,23,Male,PA,No,No,Never,Don't know,No,No,Yes,Pennsylvania,42,US42
+110,24,Male,PA,No,No,Never,Very easy,Maybe,Some of them,No,Pennsylvania,42,US42
+132,38,Male,PA,No,Yes,Rarely,Don't know,Yes,No,No,Pennsylvania,42,US42
+134,23,Male,PA,Yes,No,Sometimes,Don't know,Maybe,Some of them,No,Pennsylvania,42,US42
+186,55,Male,PA,Yes,Yes,Rarely,Very easy,No,Yes,Yes,Pennsylvania,42,US42
+200,40,Female,PA,Yes,Yes,Rarely,Somewhat easy,Maybe,No,No,Pennsylvania,42,US42
+223,29,Male,PA,Yes,Yes,Rarely,Somewhat easy,No,Yes,Yes,Pennsylvania,42,US42
+225,41,Male,PA,No,Yes,Sometimes,Don't know,Maybe,Some of them,Yes,Pennsylvania,42,US42
+251,30,Male,PA,No,No,Rarely,Don't know,No,Some of them,Some of them,Pennsylvania,42,US42
+265,38,Female,PA,Yes,Yes,Sometimes,Very easy,Maybe,Yes,Yes,Pennsylvania,42,US42
+273,31,Female,PA,Yes,Yes,Rarely,Somewhat easy,No,Yes,Yes,Pennsylvania,42,US42
+282,38,Others,PA,Yes,Yes,Sometimes,Don't know,Maybe,Some of them,No,Pennsylvania,42,US42
+287,37,Male,PA,Yes,No,Never,Somewhat easy,No,Yes,Yes,Pennsylvania,42,US42
+300,23,Male,PA,No,No,Rarely,Don't know,No,Some of them,Some of them,Pennsylvania,42,US42
+344,32,Male,PA,Yes,Yes,Sometimes,Very difficult,Yes,Some of them,No,Pennsylvania,42,US42
+394,36,Male,PA,No,No,Rarely,Somewhat difficult,No,Some of them,Yes,Pennsylvania,42,US42
+433,30,Male,PA,No,No,Never,Somewhat easy,Maybe,Some of them,Some of them,Pennsylvania,42,US42
+466,23,Male,PA,Yes,No,Sometimes,Somewhat easy,No,No,No,Pennsylvania,42,US42
+470,25,Male,PA,Yes,Yes,Often,Somewhat easy,No,Yes,Yes,Pennsylvania,42,US42
+472,34,Male,PA,Yes,Yes,Often,Very easy,No,Yes,Yes,Pennsylvania,42,US42
+474,38,Male,PA,Yes,Yes,Sometimes,Very easy,No,Yes,Yes,Pennsylvania,42,US42
+512,26,Male,PA,No,No,Never,Somewhat difficult,Maybe,No,Yes,Pennsylvania,42,US42
+542,46,Male,PA,Yes,Yes,Sometimes,Don't know,Yes,No,Some of them,Pennsylvania,42,US42
+560,32,Female,PA,No,Yes,Sometimes,Don't know,Maybe,Some of them,No,Pennsylvania,42,US42
+142,30,Female,SC,Yes,Yes,Sometimes,Very easy,No,Yes,Yes,South Carolina,45,US45
+201,31,Male,SC,No,No,Never,Somewhat easy,Yes,Some of them,No,South Carolina,45,US45
+539,25,Male,SC,No,Yes,Rarely,Somewhat easy,Maybe,No,Some of them,South Carolina,45,US45
+157,41,Male,SD,Yes,Yes,Rarely,Somewhat easy,No,Some of them,Yes,South Dakota,46,US46
+475,34,Male,SD,No,No,Sometimes,Don't know,Yes,Some of them,No,South Dakota,46,US46
+480,31,Male,SD,No,No,Sometimes,Don't know,Yes,Some of them,Some of them,South Dakota,46,US46
+3,33,Male,TN,Yes,No,Sometimes,Don't know,No,Yes,Yes,Tennessee,47,US47
+10,32,Male,TN,No,Yes,Sometimes,Don't know,Maybe,Some of them,Yes,Tennessee,47,US47
+17,35,Male,TN,Yes,Yes,Sometimes,Very easy,Yes,Some of them,Yes,Tennessee,47,US47
+29,32,Male,TN,No,No,Never,Don't know,Maybe,Some of them,Yes,Tennessee,47,US47
+56,34,Male,TN,Yes,No,Never,Don't know,Maybe,No,No,Tennessee,47,US47
+151,27,Male,TN,No,No,Sometimes,Don't know,Maybe,Some of them,Yes,Tennessee,47,US47
+221,28,Male,TN,No,No,Never,Don't know,No,Some of them,Yes,Tennessee,47,US47
+298,41,Male,TN,Yes,Yes,Sometimes,Don't know,Maybe,Some of them,Some of them,Tennessee,47,US47
+338,43,Male,TN,Yes,Yes,Sometimes,Somewhat easy,Yes,No,No,Tennessee,47,US47
+342,30,Male,TN,Yes,No,Never,Very easy,No,Some of them,Yes,Tennessee,47,US47
+347,36,Male,TN,Yes,Yes,Sometimes,Don't know,Yes,No,No,Tennessee,47,US47
+398,34,Male,TN,No,Yes,Sometimes,Don't know,Maybe,Some of them,No,Tennessee,47,US47
+399,40,Male,TN,Yes,Yes,Sometimes,Very easy,No,Yes,Yes,Tennessee,47,US47
+404,33,Male,TN,Yes,Yes,Often,Very difficult,Yes,Some of them,Yes,Tennessee,47,US47
+410,29,Male,TN,Yes,Yes,Sometimes,Don't know,Maybe,Some of them,Some of them,Tennessee,47,US47
+412,37,Male,TN,No,No,Never,Don't know,Maybe,Some of them,Yes,Tennessee,47,US47
+414,35,Male,TN,Yes,Yes,Sometimes,Don't know,Maybe,Some of them,No,Tennessee,47,US47
+416,39,Male,TN,Yes,No,Sometimes,Don't know,Maybe,Some of them,Yes,Tennessee,47,US47
+418,32,Male,TN,Yes,Yes,Rarely,Very difficult,Yes,Some of them,No,Tennessee,47,US47
+419,30,Male,TN,Yes,No,Never,Very difficult,Yes,Some of them,No,Tennessee,47,US47
+420,40,Male,TN,Yes,Yes,Often,Don't know,Maybe,Some of them,Some of them,Tennessee,47,US47
+429,36,Male,TN,No,Yes,Rarely,Don't know,Maybe,No,No,Tennessee,47,US47
+435,28,Male,TN,Yes,No,Sometimes,Somewhat easy,No,Some of them,Yes,Tennessee,47,US47
+478,24,Female,TN,Yes,No,Sometimes,Somewhat difficult,Yes,Some of them,Some of them,Tennessee,47,US47
+484,32,Male,TN,No,No,Never,Somewhat easy,No,Yes,Yes,Tennessee,47,US47
+502,42,Male,TN,No,No,Rarely,Don't know,Maybe,Some of them,No,Tennessee,47,US47
+524,30,Female,TN,Yes,Yes,Often,Somewhat difficult,Yes,No,No,Tennessee,47,US47
+529,32,Male,TN,Yes,Yes,Often,Very difficult,Yes,Yes,Yes,Tennessee,47,US47
+548,36,Female,TN,Yes,Yes,Rarely,Somewhat easy,Maybe,Some of them,No,Tennessee,47,US47
+553,39,Male,TN,Yes,Yes,Often,Somewhat easy,Yes,Some of them,Some of them,Tennessee,47,US47
+583,28,Male,TN,Yes,Yes,Often,Somewhat easy,Yes,Some of them,Yes,Tennessee,47,US47
+2,31,Male,TX,No,No,Never,Don't know,No,Some of them,Yes,Texas,48,US48
+24,35,Male,TX,No,Yes,Rarely,Very easy,No,Yes,Yes,Texas,48,US48
+26,38,Female,TX,Yes,Yes,Sometimes,Somewhat easy,No,Some of them,Yes,Texas,48,US48
+28,22,Male,TX,Yes,Yes,Often,Very difficult,Maybe,No,No,Texas,48,US48
+34,36,Male,TX,No,No,Sometimes,Don't know,Maybe,Some of them,Some of them,Texas,48,US48
+46,40,Male,TX,No,Yes,Sometimes,Very difficult,No,Yes,Yes,Texas,48,US48
+72,35,Male,TX,No,No,Never,Don't know,Yes,Some of them,No,Texas,48,US48
+102,32,Female,TX,Yes,Yes,Sometimes,Don't know,Yes,Some of them,Some of them,Texas,48,US48
+112,41,Male,TX,No,Yes,Rarely,Don't know,Maybe,Some of them,No,Texas,48,US48
+126,27,Female,TX,No,Yes,Rarely,Don't know,Maybe,Yes,No,Texas,48,US48
+137,38,Female,TX,No,Yes,Sometimes,Don't know,No,Some of them,No,Texas,48,US48
+138,26,Female,TX,Yes,Yes,Rarely,Somewhat easy,Maybe,Some of them,No,Texas,48,US48
+202,29,Male,TX,No,No,Never,Don't know,Maybe,Some of them,Some of them,Texas,48,US48
+216,24,Male,TX,Yes,Yes,Sometimes,Somewhat difficult,Yes,Some of them,Some of them,Texas,48,US48
+238,27,Male,TX,Yes,Yes,Sometimes,Somewhat easy,Yes,Some of them,Yes,Texas,48,US48
+248,48,Male,TX,No,No,Never,Don't know,Maybe,No,No,Texas,48,US48
+254,36,Male,TX,No,Yes,Sometimes,Somewhat difficult,Yes,Some of them,No,Texas,48,US48
+308,32,Male,TX,No,Yes,Sometimes,Somewhat easy,No,Some of them,Yes,Texas,48,US48
+348,31,Male,TX,Yes,Yes,Sometimes,Somewhat easy,Maybe,Some of them,Yes,Texas,48,US48
+350,30,Male,TX,No,Yes,Sometimes,Don't know,No,Some of them,Some of them,Texas,48,US48
+368,37,Female,TX,No,Yes,Often,Somewhat difficult,Yes,Some of them,Some of them,Texas,48,US48
+378,41,Male,TX,Yes,No,Sometimes,Don't know,Maybe,Some of them,Some of them,Texas,48,US48
+392,34,Male,TX,No,Yes,Sometimes,Don't know,Yes,No,No,Texas,48,US48
+423,24,Male,TX,No,No,Sometimes,Somewhat easy,No,Some of them,Yes,Texas,48,US48
+424,25,Male,TX,Yes,Yes,Rarely,Don't know,Yes,No,No,Texas,48,US48
+441,34,Male,TX,No,No,Often,Very easy,No,Some of them,Yes,Texas,48,US48
+445,42,Male,TX,No,Yes,Often,Don't know,Yes,No,No,Texas,48,US48
+469,31,Female,TX,Yes,No,Never,Don't know,Yes,No,No,Texas,48,US48
+477,33,Female,TX,No,No,Never,Somewhat easy,Maybe,No,Some of them,Texas,48,US48
+528,43,Male,TX,Yes,No,Never,Somewhat easy,Maybe,Some of them,Some of them,Texas,48,US48
+556,26,Male,TX,Yes,Yes,Sometimes,Somewhat easy,Maybe,Some of them,Some of them,Texas,48,US48
+574,32,Male,TX,No,Yes,Often,Very difficult,Yes,Some of them,No,Texas,48,US48
+575,28,Female,TX,No,Yes,Rarely,Somewhat easy,Yes,Some of them,No,Texas,48,US48
+576,23,Male,TX,No,Yes,Sometimes,Very easy,Maybe,Some of them,Yes,Texas,48,US48
+578,38,Male,TX,No,Yes,Sometimes,Very easy,No,Yes,Yes,Texas,48,US48
+39,32,Male,UT,Yes,Yes,Sometimes,Somewhat difficult,Yes,Some of them,No,Utah,49,US49
+80,27,Male,UT,No,Yes,Rarely,Somewhat difficult,Maybe,Some of them,Yes,Utah,49,US49
+155,25,Male,UT,No,No,Never,Very easy,No,Some of them,Yes,Utah,49,US49
+236,28,Others,UT,No,No,Sometimes,Somewhat easy,Yes,Some of them,No,Utah,49,US49
+436,35,Male,UT,Yes,Yes,Rarely,Somewhat difficult,Maybe,Some of them,Some of them,Utah,49,US49
+510,25,Male,UT,No,Yes,Often,Somewhat easy,Maybe,Some of them,No,Utah,49,US49
+523,25,Male,UT,Yes,Yes,Often,Very easy,Maybe,Yes,Yes,Utah,49,US49
+531,37,Male,UT,No,Yes,Sometimes,Very easy,No,No,Yes,Utah,49,US49
+590,36,Male,UT,Yes,No,Rarely,Somewhat easy,Maybe,Some of them,Some of them,Utah,49,US49
+544,34,Male,VT,No,No,Never,Don't know,Yes,No,No,Vermont,50,US50
+124,24,Male,VA,No,No,Sometimes,Don't know,No,Yes,Yes,Virginia,51,US51
+230,40,Others,VA,Yes,No,Never,Don't know,Yes,No,Some of them,Virginia,51,US51
+245,23,Male,VA,No,No,Never,Don't know,No,Yes,Yes,Virginia,51,US51
+263,38,Male,VA,Yes,Yes,Sometimes,Don't know,Yes,No,No,Virginia,51,US51
+330,45,Male,VA,No,Yes,Often,Very easy,No,Yes,Yes,Virginia,51,US51
+362,33,Male,VA,Yes,Yes,Sometimes,Very easy,Maybe,Yes,Yes,Virginia,51,US51
+363,43,Male,VA,No,No,Sometimes,Don't know,Maybe,No,No,Virginia,51,US51
+413,36,Male,VA,No,No,Never,Somewhat difficult,No,Some of them,Yes,Virginia,51,US51
+417,42,Male,VA,Yes,No,Sometimes,Don't know,Maybe,Some of them,No,Virginia,51,US51
+422,50,Male,VA,No,No,Never,Somewhat easy,No,Some of them,Yes,Virginia,51,US51
+430,48,Male,VA,No,Yes,Never,Don't know,Maybe,Yes,Yes,Virginia,51,US51
+520,43,Male,VA,Yes,Yes,Sometimes,Don't know,Maybe,Some of them,Some of them,Virginia,51,US51
+568,28,Female,VA,No,Yes,Often,Very difficult,Yes,Some of them,Some of them,Virginia,51,US51
+21,42,Male,WA,Yes,Yes,Sometimes,Very easy,Maybe,Some of them,Some of them,Washington,53,US53
+38,31,Male,WA,Yes,No,Sometimes,Somewhat difficult,No,Yes,Yes,Washington,53,US53
+57,32,Male,WA,No,Yes,Sometimes,Somewhat difficult,Maybe,Some of them,Yes,Washington,53,US53
+64,36,Male,WA,No,No,Often,Don't know,Maybe,No,No,Washington,53,US53
+65,27,Male,WA,Yes,No,Never,Don't know,Yes,Some of them,No,Washington,53,US53
+85,33,Female,WA,Yes,Yes,Sometimes,Very difficult,No,Some of them,Yes,Washington,53,US53
+91,43,Male,WA,Yes,Yes,Often,Very difficult,Yes,No,No,Washington,53,US53
+109,32,Male,WA,No,No,Rarely,Very difficult,No,Some of them,Yes,Washington,53,US53
+125,42,Male,WA,No,No,Never,Somewhat easy,No,Some of them,Yes,Washington,53,US53
+136,26,Female,WA,Yes,Yes,Rarely,Don't know,Maybe,Some of them,Some of them,Washington,53,US53
+148,28,Female,WA,Yes,Yes,Often,Somewhat easy,Yes,Some of them,Yes,Washington,53,US53
+153,36,Male,WA,No,Yes,Never,Somewhat easy,Maybe,Some of them,Yes,Washington,53,US53
+165,46,Male,WA,No,No,Never,Very easy,No,Some of them,Some of them,Washington,53,US53
+167,33,Female,WA,Yes,No,Sometimes,Very difficult,Yes,Some of them,Some of them,Washington,53,US53
+169,25,Female,WA,Yes,Yes,Sometimes,Don't know,No,Some of them,Yes,Washington,53,US53
+178,34,Male,WA,Yes,Yes,Sometimes,Don't know,Maybe,No,No,Washington,53,US53
+179,34,Male,WA,No,Yes,Sometimes,Somewhat easy,Yes,Some of them,Some of them,Washington,53,US53
+185,41,Male,WA,Yes,Yes,Often,Somewhat difficult,Maybe,Yes,Some of them,Washington,53,US53
+187,32,Female,WA,No,Yes,Sometimes,Somewhat easy,Maybe,Some of them,Yes,Washington,53,US53
+190,27,Female,WA,No,Yes,Rarely,Don't know,Yes,No,No,Washington,53,US53
+191,25,Female,WA,Yes,Yes,Sometimes,Don't know,Maybe,Some of them,Yes,Washington,53,US53
+231,30,Male,WA,Yes,Yes,Often,Very difficult,Yes,Some of them,No,Washington,53,US53
+261,25,Female,WA,No,No,Sometimes,Somewhat easy,Maybe,Some of them,No,Washington,53,US53
+262,39,Male,WA,No,No,Never,Very easy,No,Yes,Yes,Washington,53,US53
+310,37,Male,WA,No,No,Often,Don't know,Maybe,Some of them,No,Washington,53,US53
+311,29,Male,WA,No,No,Rarely,Very easy,Yes,Some of them,No,Washington,53,US53
+315,31,Female,WA,No,Yes,Often,Very easy,Maybe,Some of them,Some of them,Washington,53,US53
+325,32,Male,WA,No,Yes,Never,Very easy,Maybe,No,No,Washington,53,US53
+335,33,Male,WA,Yes,Yes,Rarely,Very difficult,No,Yes,Yes,Washington,53,US53
+370,22,Female,WA,Yes,Yes,Sometimes,Very difficult,Yes,Some of them,Some of them,Washington,53,US53
+377,40,Female,WA,Yes,Yes,Sometimes,Don't know,Maybe,Some of them,Yes,Washington,53,US53
+381,39,Female,WA,No,No,Sometimes,Don't know,Yes,No,No,Washington,53,US53
+383,40,Female,WA,Yes,Yes,Sometimes,Don't know,Yes,Some of them,No,Washington,53,US53
+386,20,Male,WA,No,No,Never,Don't know,No,Some of them,Yes,Washington,53,US53
+442,43,Male,WA,No,Yes,Sometimes,Very difficult,Yes,Some of them,No,Washington,53,US53
+443,38,Male,WA,Yes,Yes,Sometimes,Very difficult,Yes,No,Some of them,Washington,53,US53
+444,26,Male,WA,Yes,Yes,Sometimes,Very difficult,Maybe,Some of them,Some of them,Washington,53,US53
+446,32,Male,WA,No,Yes,Rarely,Somewhat easy,Maybe,Some of them,Some of them,Washington,53,US53
+447,44,Male,WA,Yes,Yes,Sometimes,Somewhat difficult,Maybe,Some of them,Yes,Washington,53,US53
+448,28,Male,WA,Yes,Yes,Rarely,Don't know,Maybe,Some of them,No,Washington,53,US53
+449,40,Male,WA,Yes,Yes,Sometimes,Very difficult,Yes,Some of them,Some of them,Washington,53,US53
+451,32,Male,WA,Yes,No,Sometimes,Don't know,Yes,Some of them,No,Washington,53,US53
+452,28,Male,WA,Yes,Yes,Sometimes,Somewhat easy,Maybe,Some of them,No,Washington,53,US53
+454,43,Male,WA,No,Yes,Rarely,Somewhat easy,No,Yes,Yes,Washington,53,US53
+456,40,Male,WA,Yes,Yes,Sometimes,Very easy,Maybe,Some of them,Some of them,Washington,53,US53
+457,36,Female,WA,Yes,Yes,Rarely,Don't know,Yes,Some of them,No,Washington,53,US53
+458,30,Male,WA,Yes,No,Never,Don't know,Yes,No,No,Washington,53,US53
+463,38,Male,WA,No,No,Never,Somewhat easy,Maybe,Some of them,Some of them,Washington,53,US53
+497,26,Male,WA,No,Yes,Sometimes,Don't know,Maybe,Some of them,No,Washington,53,US53
+499,26,Female,WA,Yes,Yes,Sometimes,Don't know,No,Some of them,Yes,Washington,53,US53
+503,39,Male,WA,Yes,Yes,Sometimes,Very easy,No,Some of them,Yes,Washington,53,US53
+519,40,Male,WA,Yes,Yes,Sometimes,Don't know,Yes,No,No,Washington,53,US53
+521,27,Female,WA,Yes,Yes,Often,Very difficult,Maybe,Yes,Some of them,Washington,53,US53
+530,25,Male,WA,No,Yes,Sometimes,Don't know,Yes,No,No,Washington,53,US53
+534,40,Male,WA,Yes,Yes,Sometimes,Somewhat difficult,Maybe,Some of them,Some of them,Washington,53,US53
+537,35,Female,WA,Yes,No,Sometimes,Somewhat easy,No,Yes,Some of them,Washington,53,US53
+547,42,Female,WA,Yes,Yes,Sometimes,Don't know,Yes,Some of them,Some of them,Washington,53,US53
+586,41,Female,WA,Yes,Yes,Sometimes,Don't know,Yes,No,No,Washington,53,US53
+74,23,Male,WV,No,No,Sometimes,Somewhat easy,Yes,No,No,West Virginia,54,US54
+22,40,Female,WI,No,Yes,Sometimes,Don't know,Maybe,Some of them,No,Wisconsin,55,US55
+52,33,Male,WI,Yes,Yes,Sometimes,Somewhat easy,No,Some of them,Yes,Wisconsin,55,US55
+269,39,Male,WI,Yes,Yes,Often,Somewhat easy,Yes,Some of them,Yes,Wisconsin,55,US55
+303,33,Male,WI,Yes,Yes,Sometimes,Somewhat difficult,Yes,No,No,Wisconsin,55,US55
+304,30,Female,WI,Yes,Yes,Often,Somewhat difficult,No,Yes,Yes,Wisconsin,55,US55
+309,42,Male,WI,No,No,Rarely,Very easy,No,Some of them,Yes,Wisconsin,55,US55
+364,33,Male,WI,No,Yes,Sometimes,Somewhat difficult,No,Yes,Yes,Wisconsin,55,US55
+389,29,Male,WI,Yes,No,Sometimes,Very easy,Maybe,Some of them,No,Wisconsin,55,US55
+401,42,Male,WI,No,Yes,Sometimes,Somewhat easy,Maybe,No,No,Wisconsin,55,US55
+496,40,Male,WI,Yes,Yes,Sometimes,Don't know,Yes,No,No,Wisconsin,55,US55
+533,24,Male,WI,Yes,Yes,Rarely,Very easy,No,Yes,Yes,Wisconsin,55,US55
+306,50,Male,WY,No,No,Sometimes,Don't know,Yes,Some of them,Some of them,Wyoming,56,US56
+346,33,Male,WY,Yes,Yes,Sometimes,Don't know,No,Some of them,Yes,Wyoming,56,US56

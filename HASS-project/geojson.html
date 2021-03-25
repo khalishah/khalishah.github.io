@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="/d3-geomap/dist/d3-geomap.css" rel="stylesheet">
+        <script src="https://d3js.org/d3.v4.js"></script>
+    </head>
+    <body>
+        <div class="d3-geomap" id="map"></div>
+    </body>
+    <script src="//unpkg.com/d3@5/dist/d3.min.js"></script>
+    <script src="//unpkg.com/topojson@3/dist/topojson.min.js"></script>
+    <script src="/d3-geomap/dist/d3-geomap.min.js"></script>
+</html><html>
+    <head>
+        <meta charset="utf-8">
+        <link href="/d3-geomap/dist/d3-geomap.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="d3-geomap" id="map"></div>
+<script>
+        var map = d3.choropleth()
+.geofile('/d3-geomap/dist/topojson/countries/USA.json')
+.projection(d3.geoAlbersUsa)
+.column('Age')
+.unitId('fips')
+.scale(1000)
+.legend(true);
+
+d3.csv('survey_cleaned_v2.csv').then(data => {
+map.draw(d3.select('#map').datum(data));
+});
+</script>
+    </body>
+    <script src="//unpkg.com/d3@5/dist/d3.min.js"></script>
+    <script src="//unpkg.com/topojson@3/dist/topojson.min.js"></script>
+    <script src="/d3-geomap/dist/d3-geomap.min.js"></script>
+</html>
+
