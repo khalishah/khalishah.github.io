@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Assignment 2</title>
+    <meta name="author" content="Khalishah Nadhirah (1000668)">
+    <!-- Google fonts Second Reference-->  
+    <link href="https://fonts.googleapis.com/css?family=Barlow:100,200,300,400,500&display=swap" rel="stylesheet">
+    <style>
+        * {
+            text-align: center;
+            font-family: 'Barlow', sans-serif;
+            font-weight: 500;
+            font-variant: small-caps slashed-zero;
+        }
+        .grid line {
+        stroke: lightgrey;
+        stroke-opacity: 0.7;
+        shape-rendering: crispEdges;
+        }
+        .grid path {
+        stroke-width: 0;
+        }
+        .line_n {
+        stroke-width: 2px;
+        stroke-dasharray: 2; 
+        }
+        .area_prop {
+        opacity: 0.7;
+        } 
+        .area_prop:hover {
+        opacity: 2;
+        }
+        .titles {
+        font-size: 22px;
+        } 
+        .main_header {
+            font-size: 30px; 
+            background-color: rgba(105, 94, 84, 0.3);
+        }
+        #para {
+            font-variant: normal;
+            font-size: 18px;
+            font-weight: normal;
+            padding-left: 20px;
+            padding-right: 20px;
+            text-align: left;
+        }
+        #para-legend {
+            font-variant: normal;
+            font-size: 12px;
+            font-weight: normal;
+            padding-bottom: 50px;
+            text-align: center;
+        }
+        #para-explain {
+            font-variant: normal;
+            font-size: 18px;
+            font-weight: normal;
+            margin-left: 200px;
+            margin-right: 200px;
+            text-align: left;
+        }
+        .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 0px;
+        }
+        .container-viz {
+        align-items: center;
+        justify-content: center;
+        padding-left: 100px;
+        padding-right: 100px;
+        }
+        img {
+            max-width: 100%;
+        }
+        .image {
+            flex-basis: 60%;
+        }
+    </style>
+    <script src="https://d3js.org/d3.v4.js"></script> 
+
+</head>
+
+<body>
+    <!-- Load d3.js -->
+    <script src="https://d3js.org/d3.v4.js"></script>
+    <div>
+        <h1 style="font-size: 40px;">Distribution of Victims from 2011 to 2019 in Singapore</h1>
+        <h3>Khalishah Nadhirah Bte Abu Bakar (1000668)</h3>
+        <p>Data retrieved from <a href="https://data.gov.sg/dataset/victims-of-selected-major-selected-offences">data.gov.sg</a></p>
+    </div>
+
+    <div>
+    <!-- Dataset -->
+    <h4 class="main_header">Dataset</h4>
+    <div class="container">
+        <div class="image">
+            <h5 style="font-size: 20px">Original Dataset </h5>
+            <img src="original_data.png" alt="Original Data">
+        </div>
+        <div>
+            <p id="para" style="text-align: center">>>>  I cleaned the original dataset (displayed on the left) on Python.  >>></p>
+            <p id="para" style="text-align: center">These are the steps followed:</p>
+            <ol>
+                <li id="para">I filtered the level_2 variable, which is the age group of the victims, to include the categores of only those above 21 years old and 21 years and below. The other categories contains either overlaps with the filtered categories or had many unknown age groups.</li>
+                <li id="para">I extracted variables on gender and offenceType from the level_1 variable, which represents the type of offence. </li>
+                <li id="para">After cleaning, I aggregated the dataset by year, gender and offenceType variables and summed up the value variable.</li>
+                <li id="para">I converted the dataset from a long to wide format, pivotted on gender and keeping the granularity at year and offenceType level for the data visualisation in the next step. The cleaned dataset is displayed on the right.</li>
+            </ol>
+        </div>
+        <div class="image">
+            <h5 style="font-size: 20px">Cleaned Dataset </h5>
+            <img src="cleaned_data.png" alt="Cleaned Data">
+        </div>
+    </div>
+
+    <!-- Female Victims -->
+    <h4 class="main_header">Female Victims</h4>
+    <p id="para-legend">(dotted line is denoted to be total number of victims per offenceType; area under the graph is total number of FEMALE victims per offenceType)</p>
+    <div id="female" class="container-viz"></div>
+
+    <!-- Male Victims -->
+    <h4 class="main_header">Male Victims</h4>
+    <p id="para-legend">(dotted line is denoted to be total number of victims per offenceType; area under the graph is total number of MALE victims per offenceType)</p>
+    <div id="male" class="container-viz"></div>
+    
+    <!-- Writeup Explanation-->
+    <h4 class="main_header">Explanation</h4>
+    <p>
+        <ul>
+            <li id="para-explain">Overall, there are significantly more victims from those offences of cheating and related. They are skewed towards the male victims. </li>
+                <ul>
+                    <li id="para-explain">This trend has been increasing over the years and hitting maximum numbers in 2019.</li>
+                </ul>
+            <li id="para-explain">Next, outrage of modesty contributes to a sizeable number of victims, with majority of them being females.</li>
+                <ul>
+                    <li id="para-explain">The numbers have been stagnant till 2015 but has a gentle increase from 2015 to 2018 before dipping in 2019.</li>
+                </ul>
+            <li id="para-explain">Serious hurt also contributed to a number of victims. Most of them lies in the males victims.</li>
+                <ul>
+                    <li id="para-explain">However, these numbers have been stagnant from 2011 to 2019.</li>
+                </ul>
+            <li id="para-explain">Other offence types such as murder, rape, rioting, robbery and snatch theft has a relatively low number of victims over the years but comparisons is seen between genders</li>
+                <ul>
+                    <li id="para-explain">More female victims in offences of rape and snatch theft.</li>
+                    <li id="para-explain">More male victims in offences of rioting and robbery.</li>
+                </ul>
+        </ul>
+    </p>
+
+    <!-- Color Scale -->
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="https://d3js.org/d3-array.v2.min.js"></script>
+    <script>
+
+        // set the dimensions and margins of the graph
+        var margin = {top: 30, right: 0, bottom: 30, left: 50},
+            width = 400 - margin.left - margin.right,
+            height = 310 - margin.top - margin.bottom;
+
+        // Saving the correct time format for D3 
+        var parseDate = d3.timeParse("%Y");
+
+        // Saving the correct time format for the axis lables 
+        var formatTime = d3.timeFormat("%Y");
+        
+        // Read the data
+        d3.csv("victims.csv", function(data) {
+            // Ensure data types is fixed in each variable
+            data.forEach(function(d) {
+                d.Total = +d.Total;
+                d.Female = +d.Female;
+                d.Male = +d.Male;
+                d.year = +d.year;
+                d.year = parseDate(d.year);
+            });
+
+            // Group the data: I want to draw one line per group, nest function allows to group the calculation per level of a factor
+            var sumstat = d3.nest()  
+                .key(function(d) {return d.offenceType;})
+                .entries(data);
+
+            // What is the list of groups?
+            allKeys = sumstat.map(function(d){return d.key})
+
+
+            // Add an svg element for each group. There will be one beside each other and switch to the next row when no more space is available
+            var svg = d3.select("#female")
+                .selectAll("uniqueChart")
+                .data(sumstat)
+                .enter()
+                .append("svg")
+                .attr("width", width + margin.left + margin.right)
+                .attr("height", height + margin.top + margin.bottom)
+                .append("g")
+                .attr("transform",
+                        "translate(" + margin.left + "," + margin.top + ")");
+            
+            // A color scale: one color for each group
+            var myColor = d3.scaleOrdinal()
+            .domain(allKeys)
+            .range(d3.schemeSet2);
+
+            // gridlines in x axis function
+            function make_x_gridlines() {		
+                return d3.axisBottom(x)
+                    .ticks(9)
+            }
+
+            // gridlines in y axis function
+            function make_y_gridlines() {		
+                return d3.axisLeft(y)
+                    .ticks(5)
+            }
+            
+            // Add X axis --> it is a date format
+            var x = d3.scaleLinear()
+                .domain(d3.extent(data, function(d) { return d.year; }))
+                .range([ 0, width ]);
+            svg
+                .append("g")
+                .attr("transform", "translate(0," + height + ")")
+                .attr("class", "x-axis")
+                .call(d3.axisBottom(x).ticks(6)
+                .tickFormat(formatTime));
+            
+            // Scaling for the y axis, here we only need the d3.max function a the minimum will always be 0 
+            var y = d3.scaleLinear()
+                .domain([0, d3.max(data, function(d) { return +d.Total; })])
+                .range([ height, 0]);
+
+            // Same scaling but now for the variable n as applied when drawing the line
+            var y2 = d3.scaleLinear()
+                .domain([0, d3.max(data, function(d) { return +d.Total; })])
+                .range([ height, 0]);
+            
+            // Creating and calling the y axis so that we can apply the styling in the CSS easily  
+            svg.append("g")
+                .attr("class", "y-axis")
+                .call(d3.axisLeft(y2)
+                        .ticks(4));
+
+            // add the X gridlines
+            svg.append("g")			
+                .attr("class", "grid")
+                .attr("transform", "translate(0," + height + ")")
+                .call(make_x_gridlines()
+                    .tickSize(-height)
+                    .tickFormat("")
+                )
+
+            // add the Y gridlines
+            svg.append("g")			
+                .attr("class", "grid")
+                .call(make_y_gridlines()
+                    .tickSize(-width)
+                    .tickFormat("")
+                )
+            
+            // Defining the area generator with two accesor functions for x and y1. Y0 is defined by y(0) which basically is the height.
+            var line_n = d3.line()
+            .x(function(d) { return x(d.year) })
+            .y(function(d) { return y(+d.Total)});
+
+            var area_prop = d3.area()
+            .x(function(d) { return x(d.year) })
+            .y0(y(0))
+            .y1(function(d) { return y2(+d.Female)});
+
+            // Drawing the line by using a SVG path, the d element of the svg is defined by the data but applied the line generator to create a path useable data format   
+            svg
+            .append("path")
+            .attr("fill", "none")
+            .attr("stroke", "#d18400")
+            .attr("class", "line_n")
+            .attr("d", function(d){return line_n(d.values)})
+
+            // Drawing the area by using a SVG path, the color is again defined by the key and the d element of the svg is defined by the data but applied the area generator to create a path useable data format 
+            svg
+            .append("path")
+            .attr("fill", function(d){ return myColor(d.key) })
+            .attr("stroke", "none")
+            .attr("class", "area_prop")
+            .attr("d", function(d){return area_prop(d.values)})
+
+            // Adding the titles, which will be the keys we defined in the d3.nest function, the colour will also depend on the key, we give it a class so that we define more styling options with CSS. 
+            svg
+            .append("text")
+            .attr("text-anchor", "start")
+            .attr("y", -15)
+            .attr("x", -5)
+            .attr("class", 'titles')
+            .text(function(d){ return(d.key)})
+            .style("fill", function(d){ return myColor(d.key) })
+
+            // MALE
+
+            // Add an svg element for each group. There will be one beside each other and switch to the next row when no more space is  available
+            var svgm = d3.select("#male")
+                .selectAll("uniqueChart")
+                .data(sumstat)
+                .enter()
+                .append("svg")
+                .attr("width", width + margin.left + margin.right)
+                .attr("height", height + margin.top + margin.bottom)
+                .append("g")
+                .attr("transform",
+                        "translate(" + margin.left + "," + margin.top + ")");
+            
+            // A color scale: one color for each group
+            var myColor = d3.scaleOrdinal()
+            .domain(allKeys)
+            .range(d3.schemeSet2);
+
+            // gridlines in x axis function
+            function make_x_gridlines() {		
+                return d3.axisBottom(x)
+                    .ticks(9)
+            }
+
+            // gridlines in y axis function
+            function make_y_gridlines() {		
+                return d3.axisLeft(y)
+                    .ticks(5)
+            }
+            
+            // Add X axis --> it is a date format
+            var x = d3.scaleLinear()
+                .domain(d3.extent(data, function(d) { return d.year; }))
+                .range([ 0, width ]);
+            svgm
+                .append("g")
+                .attr("transform", "translate(0," + height + ")")
+                .attr("class", "x-axis")
+                .call(d3.axisBottom(x).ticks(6)
+                .tickFormat(formatTime));
+            
+            // Scaling for the y axis, here we only need the d3.max function a the minimum will always be 0 
+            var y = d3.scaleLinear()
+                .domain([0, d3.max(data, function(d) { return +d.Total; })])
+                .range([ height, 0]);
+
+            // Same scaling but now for the variable n as applied when drawing the line
+            var y2 = d3.scaleLinear()
+                .domain([0, d3.max(data, function(d) { return +d.Total; })])
+                .range([ height, 0]);
+            
+            // Creating and calling the y axis so that we can apply the styling in the CSS easily  
+            svgm.append("g")
+                .attr("class", "y-axis")
+                .call(d3.axisLeft(y2)
+                        .ticks(4));
+
+            // add the X gridlines
+            svgm.append("g")			
+                .attr("class", "grid")
+                .attr("transform", "translate(0," + height + ")")
+                .call(make_x_gridlines()
+                    .tickSize(-height)
+                    .tickFormat("")
+                )
+
+            // add the Y gridlines
+            svgm.append("g")			
+                .attr("class", "grid")
+                .call(make_y_gridlines()
+                    .tickSize(-width)
+                    .tickFormat("")
+                )
+            
+            // Defining the area generator with two accesor functions for x and y1. Y0 is defined by y(0) which basically is the height. 
+            var line_n = d3.line()
+            .x(function(d) { return x(d.year) })
+            .y(function(d) { return y(+d.Total)});
+
+            var area_prop = d3.area()
+            .x(function(d) { return x(d.year) })
+            .y0(y(0))
+            .y1(function(d) { return y2(+d.Male)});
+
+            // Drawing the line by using a SVG path, the d element of the svg is defined by the data but applied the line generator to create a path useable data format   
+            svgm
+            .append("path")
+            .attr("fill", "none")
+            .attr("stroke", "#d18400")
+            .attr("class", "line_n")
+            .attr("d", function(d){return line_n(d.values)})
+
+            // Drawing the area by using a SVG path, the color is again defined by the key and the d element of the svg is defined by the data but applied the area generator to create a path useable  data format 
+            svgm
+            .append("path")
+            .attr("fill", function(d){ return myColor(d.key) })
+            .attr("stroke", "none")
+            .attr("class", "area_prop")
+            .attr("d", function(d){return area_prop(d.values)})
+
+            //Adding the titles, which will be the keys we defined in the d3.nest function, the colour will also depend on the key, we give it a class so that we define more styling options with CSS. 
+            svgm
+            .append("text")
+            .attr("text-anchor", "start")
+            .attr("y", -15)
+            .attr("x", -5)
+            .attr("class", 'titles')
+            .text(function(d){ return(d.key)})
+            .style("fill", function(d){ return myColor(d.key) })
+        });
+        </script>
+</body>
+</html>

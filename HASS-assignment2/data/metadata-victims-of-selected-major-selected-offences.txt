@@ -1,0 +1,56 @@
+# Metadata for Victims of Selected Major Selected Offences
+---
+Identifier: 'e46a6fa4-fd7d-4a1b-aeca-9bec824ec9fb'
+Name: 'victims-of-selected-major-selected-offences'
+Title: 'Victims of Selected Major Selected Offences'
+Description: 'Note: Figures are based on Annual Statistical Reports on Crime in Singapore.'
+Topics:
+  - 'Society'
+Keywords:
+  - 'crime'
+  - 'offence'
+  - 'victims'
+Publisher:
+  Name: 'Ministry of Home Affairs - Singapore Police Force'
+  Admin 1:
+    Name: 'Ng Kok Hoe'
+    Department: 'Police Intelligence Department \ Intelligence Processing Division'
+    Email: 'NG_Kok_Hoe@spf.gov.sg'
+Sources:
+  - 'Ministry of Home Affairs - Singapore Police Force'
+Source Url: 'https://www.tablebuilder.singstat.gov.sg/publicfacing/createDataTable.action?refId=15657&exportType=csv'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '2011-01-01 to 2019-12-31'
+Last Updated: '2021-03-14T10:37:09.893460'
+Resources:
+  -
+    Identifier: '50ce8b97-6f2e-4a0c-95b4-2477ab281846'
+    Title: 'Victims Of Selected Major Offences By Age Group'
+    Url: 'https://storage.data.gov.sg/victims-of-selected-major-selected-offences/resources/victims-of-selected-major-offences-by-age-group-2021-03-14T10-37-09Z.csv'
+    Format: 'CSV'
+    Coverage: '2011-01-01 to 2019-12-31'
+    Last Updated: '2021-03-14T10:37:09.416019'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'level_1'
+        Title: 'Offence'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'level_2'
+        Title: 'Age Group'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'value'
+        Title: 'Number'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'person'

@@ -1,0 +1,874 @@
+year,level_1,level_2,value
+2011,Total Victims Of Murder,Above 21 Years Old,16
+2011,Total Victims Of Murder,21 Years Old And Below,0
+2011,Total Victims Of Murder,Youths (7 To 19 Years Old),0
+2011,Total Victims Of Murder,Unknown Age,0
+2011,Male Victims Of Murder,Above 21 Years Old,10
+2011,Male Victims Of Murder,21 Years Old And Below,0
+2011,Male Victims Of Murder,Youths (7 To 19 Years Old),0
+2011,Male Victims Of Murder,Unknown Age,0
+2011,Female Victims Of Murder,Above 21 Years Old,6
+2011,Female Victims Of Murder,21 Years Old And Below,0
+2011,Female Victims Of Murder,Youths (7 To 19 Years Old),0
+2011,Female Victims Of Murder,Unknown Age,0
+2011,Total Victims Of Rape,Above 21 Years Old,45
+2011,Total Victims Of Rape,21 Years Old And Below,105
+2011,Total Victims Of Rape,Youths (7 To 19 Years Old),96
+2011,Total Victims Of Rape,Unknown Age,0
+2011,Male Victims Of Rape,Above 21 Years Old,0
+2011,Male Victims Of Rape,21 Years Old And Below,0
+2011,Male Victims Of Rape,Youths (7 To 19 Years Old),0
+2011,Male Victims Of Rape,Unknown Age,0
+2011,Female Victims Of Rape,Above 21 Years Old,45
+2011,Female Victims Of Rape,21 Years Old And Below,105
+2011,Female Victims Of Rape,Youths (7 To 19 Years Old),96
+2011,Female Victims Of Rape,Unknown Age,0
+2011,Total Victims Of Outrage Of Modesty,Above 21 Years Old,822
+2011,Total Victims Of Outrage Of Modesty,21 Years Old And Below,656
+2011,Total Victims Of Outrage Of Modesty,Youths (7 To 19 Years Old),534
+2011,Total Victims Of Outrage Of Modesty,Unknown Age,4
+2011,Male Victims Of Outrage Of Modesty,Above 21 Years Old,12
+2011,Male Victims Of Outrage Of Modesty,21 Years Old And Below,70
+2011,Male Victims Of Outrage Of Modesty,Youths (7 To 19 Years Old),60
+2011,Male Victims Of Outrage Of Modesty,Unknown Age,0
+2011,Female Victims Of Outrage Of Modesty,Above 21 Years Old,810
+2011,Female Victims Of Outrage Of Modesty,21 Years Old And Below,586
+2011,Female Victims Of Outrage Of Modesty,Youths (7 To 19 Years Old),474
+2011,Female Victims Of Outrage Of Modesty,Unknown Age,4
+2011,Total Victims Of Robbery,Above 21 Years Old,342
+2011,Total Victims Of Robbery,21 Years Old And Below,107
+2011,Total Victims Of Robbery,Youths (7 To 19 Years Old),88
+2011,Total Victims Of Robbery,Unknown Age,1
+2011,Male Victims Of Robbery,Above 21 Years Old,235
+2011,Male Victims Of Robbery,21 Years Old And Below,80
+2011,Male Victims Of Robbery,Youths (7 To 19 Years Old),70
+2011,Male Victims Of Robbery,Unknown Age,1
+2011,Female Victims Of Robbery,Above 21 Years Old,107
+2011,Female Victims Of Robbery,21 Years Old And Below,27
+2011,Female Victims Of Robbery,Youths (7 To 19 Years Old),18
+2011,Female Victims Of Robbery,Unknown Age,0
+2011,Total Victims Of Snatch Theft,Above 21 Years Old,280
+2011,Total Victims Of Snatch Theft,21 Years Old And Below,70
+2011,Total Victims Of Snatch Theft,Youths (7 To 19 Years Old),50
+2011,Total Victims Of Snatch Theft,Unknown Age,0
+2011,Male Victims Of Snatch Theft,Above 21 Years Old,49
+2011,Male Victims Of Snatch Theft,21 Years Old And Below,22
+2011,Male Victims Of Snatch Theft,Youths (7 To 19 Years Old),18
+2011,Male Victims Of Snatch Theft,Unknown Age,0
+2011,Female Victims Of Snatch Theft,Above 21 Years Old,231
+2011,Female Victims Of Snatch Theft,21 Years Old And Below,48
+2011,Female Victims Of Snatch Theft,Youths (7 To 19 Years Old),32
+2011,Female Victims Of Snatch Theft,Unknown Age,0
+2011,Total Victims Of Rioting,Above 21 Years Old,132
+2011,Total Victims Of Rioting,21 Years Old And Below,128
+2011,Total Victims Of Rioting,Youths (7 To 19 Years Old),108
+2011,Total Victims Of Rioting,Unknown Age,1
+2011,Male Victims Of Rioting,Above 21 Years Old,125
+2011,Male Victims Of Rioting,21 Years Old And Below,114
+2011,Male Victims Of Rioting,Youths (7 To 19 Years Old),96
+2011,Male Victims Of Rioting,Unknown Age,1
+2011,Female Victims Of Rioting,Above 21 Years Old,7
+2011,Female Victims Of Rioting,21 Years Old And Below,14
+2011,Female Victims Of Rioting,Youths (7 To 19 Years Old),12
+2011,Female Victims Of Rioting,Unknown Age,0
+2011,Total Victims Of Serious Hurt,Above 21 Years Old,360
+2011,Total Victims Of Serious Hurt,21 Years Old And Below,77
+2011,Total Victims Of Serious Hurt,Youths (7 To 19 Years Old),50
+2011,Total Victims Of Serious Hurt,Unknown Age,1
+2011,Male Victims Of Serious Hurt,Above 21 Years Old,301
+2011,Male Victims Of Serious Hurt,21 Years Old And Below,65
+2011,Male Victims Of Serious Hurt,Youths (7 To 19 Years Old),42
+2011,Male Victims Of Serious Hurt,Unknown Age,1
+2011,Female Victims Of Serious Hurt,Above 21 Years Old,59
+2011,Female Victims Of Serious Hurt,21 Years Old And Below,12
+2011,Female Victims Of Serious Hurt,Youths (7 To 19 Years Old),8
+2011,Female Victims Of Serious Hurt,Unknown Age,0
+2011,Total Victims Of Cheating & Related,Above 21 Years Old,1970
+2011,Total Victims Of Cheating & Related,21 Years Old And Below,296
+2011,Total Victims Of Cheating & Related,Youths (7 To 19 Years Old),181
+2011,Total Victims Of Cheating & Related,Unknown Age,1
+2011,Male Victims Of Cheating & Related,Above 21 Years Old,1123
+2011,Male Victims Of Cheating & Related,21 Years Old And Below,161
+2011,Male Victims Of Cheating & Related,Youths (7 To 19 Years Old),104
+2011,Male Victims Of Cheating & Related,Unknown Age,0
+2011,Female Victims Of Cheating & Related,Above 21 Years Old,847
+2011,Female Victims Of Cheating & Related,21 Years Old And Below,135
+2011,Female Victims Of Cheating & Related,Youths (7 To 19 Years Old),77
+2011,Female Victims Of Cheating & Related,Unknown Age,1
+2011,Female Victims Of Cheating & Related,Unknown Victims Of Cheating & Related,0
+2012,Total Victims Of Murder,Above 21 Years Old,11
+2012,Total Victims Of Murder,21 Years Old And Below,0
+2012,Total Victims Of Murder,Youths (7 To 19 Years Old),0
+2012,Total Victims Of Murder,Unknown Age,0
+2012,Male Victims Of Murder,Above 21 Years Old,5
+2012,Male Victims Of Murder,21 Years Old And Below,0
+2012,Male Victims Of Murder,Youths (7 To 19 Years Old),0
+2012,Male Victims Of Murder,Unknown Age,0
+2012,Female Victims Of Murder,Above 21 Years Old,6
+2012,Female Victims Of Murder,21 Years Old And Below,0
+2012,Female Victims Of Murder,Youths (7 To 19 Years Old),0
+2012,Female Victims Of Murder,Unknown Age,0
+2012,Total Victims Of Rape,Above 21 Years Old,41
+2012,Total Victims Of Rape,21 Years Old And Below,97
+2012,Total Victims Of Rape,Youths (7 To 19 Years Old),82
+2012,Total Victims Of Rape,Unknown Age,0
+2012,Male Victims Of Rape,Above 21 Years Old,0
+2012,Male Victims Of Rape,21 Years Old And Below,0
+2012,Male Victims Of Rape,Youths (7 To 19 Years Old),0
+2012,Male Victims Of Rape,Unknown Age,0
+2012,Female Victims Of Rape,Above 21 Years Old,41
+2012,Female Victims Of Rape,21 Years Old And Below,97
+2012,Female Victims Of Rape,Youths (7 To 19 Years Old),82
+2012,Female Victims Of Rape,Unknown Age,0
+2012,Total Victims Of Outrage Of Modesty,Above 21 Years Old,847
+2012,Total Victims Of Outrage Of Modesty,21 Years Old And Below,654
+2012,Total Victims Of Outrage Of Modesty,Youths (7 To 19 Years Old),489
+2012,Total Victims Of Outrage Of Modesty,Unknown Age,5
+2012,Male Victims Of Outrage Of Modesty,Above 21 Years Old,19
+2012,Male Victims Of Outrage Of Modesty,21 Years Old And Below,69
+2012,Male Victims Of Outrage Of Modesty,Youths (7 To 19 Years Old),62
+2012,Male Victims Of Outrage Of Modesty,Unknown Age,1
+2012,Female Victims Of Outrage Of Modesty,Above 21 Years Old,828
+2012,Female Victims Of Outrage Of Modesty,21 Years Old And Below,585
+2012,Female Victims Of Outrage Of Modesty,Youths (7 To 19 Years Old),427
+2012,Female Victims Of Outrage Of Modesty,Unknown Age,4
+2012,Total Victims Of Robbery,Above 21 Years Old,265
+2012,Total Victims Of Robbery,21 Years Old And Below,68
+2012,Total Victims Of Robbery,Youths (7 To 19 Years Old),46
+2012,Total Victims Of Robbery,Unknown Age,0
+2012,Male Victims Of Robbery,Above 21 Years Old,179
+2012,Male Victims Of Robbery,21 Years Old And Below,43
+2012,Male Victims Of Robbery,Youths (7 To 19 Years Old),28
+2012,Male Victims Of Robbery,Unknown Age,0
+2012,Female Victims Of Robbery,Above 21 Years Old,86
+2012,Female Victims Of Robbery,21 Years Old And Below,25
+2012,Female Victims Of Robbery,Youths (7 To 19 Years Old),18
+2012,Female Victims Of Robbery,Unknown Age,0
+2012,Total Victims Of Snatch Theft,Above 21 Years Old,236
+2012,Total Victims Of Snatch Theft,21 Years Old And Below,54
+2012,Total Victims Of Snatch Theft,Youths (7 To 19 Years Old),38
+2012,Total Victims Of Snatch Theft,Unknown Age,0
+2012,Male Victims Of Snatch Theft,Above 21 Years Old,46
+2012,Male Victims Of Snatch Theft,21 Years Old And Below,17
+2012,Male Victims Of Snatch Theft,Youths (7 To 19 Years Old),14
+2012,Male Victims Of Snatch Theft,Unknown Age,0
+2012,Female Victims Of Snatch Theft,Above 21 Years Old,190
+2012,Female Victims Of Snatch Theft,21 Years Old And Below,37
+2012,Female Victims Of Snatch Theft,Youths (7 To 19 Years Old),24
+2012,Female Victims Of Snatch Theft,Unknown Age,0
+2012,Total Victims Of Rioting,Above 21 Years Old,178
+2012,Total Victims Of Rioting,21 Years Old And Below,141
+2012,Total Victims Of Rioting,Youths (7 To 19 Years Old),107
+2012,Total Victims Of Rioting,Unknown Age,2
+2012,Male Victims Of Rioting,Above 21 Years Old,170
+2012,Male Victims Of Rioting,21 Years Old And Below,132
+2012,Male Victims Of Rioting,Youths (7 To 19 Years Old),102
+2012,Male Victims Of Rioting,Unknown Age,2
+2012,Female Victims Of Rioting,Above 21 Years Old,8
+2012,Female Victims Of Rioting,21 Years Old And Below,9
+2012,Female Victims Of Rioting,Youths (7 To 19 Years Old),5
+2012,Female Victims Of Rioting,Unknown Age,0
+2012,Total Victims Of Serious Hurt,Above 21 Years Old,401
+2012,Total Victims Of Serious Hurt,21 Years Old And Below,82
+2012,Total Victims Of Serious Hurt,Youths (7 To 19 Years Old),59
+2012,Total Victims Of Serious Hurt,Unknown Age,4
+2012,Male Victims Of Serious Hurt,Above 21 Years Old,339
+2012,Male Victims Of Serious Hurt,21 Years Old And Below,71
+2012,Male Victims Of Serious Hurt,Youths (7 To 19 Years Old),53
+2012,Male Victims Of Serious Hurt,Unknown Age,4
+2012,Female Victims Of Serious Hurt,Above 21 Years Old,62
+2012,Female Victims Of Serious Hurt,21 Years Old And Below,11
+2012,Female Victims Of Serious Hurt,Youths (7 To 19 Years Old),6
+2012,Female Victims Of Serious Hurt,Unknown Age,0
+2012,Total Victims Of Cheating & Related,Above 21 Years Old,1520
+2012,Total Victims Of Cheating & Related,21 Years Old And Below,296
+2012,Total Victims Of Cheating & Related,Youths (7 To 19 Years Old),204
+2012,Total Victims Of Cheating & Related,Unknown Age,0
+2012,Male Victims Of Cheating & Related,Above 21 Years Old,840
+2012,Male Victims Of Cheating & Related,21 Years Old And Below,120
+2012,Male Victims Of Cheating & Related,Youths (7 To 19 Years Old),74
+2012,Male Victims Of Cheating & Related,Unknown Age,0
+2012,Female Victims Of Cheating & Related,Above 21 Years Old,680
+2012,Female Victims Of Cheating & Related,21 Years Old And Below,176
+2012,Female Victims Of Cheating & Related,Youths (7 To 19 Years Old),130
+2012,Female Victims Of Cheating & Related,Unknown Age,0
+2012,Female Victims Of Cheating & Related,Unknown Victims Of Cheating & Related,0
+2013,Total Victims Of Murder,Above 21 Years Old,14
+2013,Total Victims Of Murder,21 Years Old And Below,3
+2013,Total Victims Of Murder,Youths (7 To 19 Years Old),2
+2013,Total Victims Of Murder,Unknown Age,0
+2013,Male Victims Of Murder,Above 21 Years Old,9
+2013,Male Victims Of Murder,21 Years Old And Below,2
+2013,Male Victims Of Murder,Youths (7 To 19 Years Old),1
+2013,Male Victims Of Murder,Unknown Age,0
+2013,Female Victims Of Murder,Above 21 Years Old,5
+2013,Female Victims Of Murder,21 Years Old And Below,1
+2013,Female Victims Of Murder,Youths (7 To 19 Years Old),1
+2013,Female Victims Of Murder,Unknown Age,0
+2013,Total Victims Of Rape,Above 21 Years Old,40
+2013,Total Victims Of Rape,21 Years Old And Below,83
+2013,Total Victims Of Rape,Youths (7 To 19 Years Old),79
+2013,Total Victims Of Rape,Unknown Age,0
+2013,Male Victims Of Rape,Above 21 Years Old,0
+2013,Male Victims Of Rape,21 Years Old And Below,0
+2013,Male Victims Of Rape,Youths (7 To 19 Years Old),0
+2013,Male Victims Of Rape,Unknown Age,0
+2013,Female Victims Of Rape,Above 21 Years Old,40
+2013,Female Victims Of Rape,21 Years Old And Below,83
+2013,Female Victims Of Rape,Youths (7 To 19 Years Old),79
+2013,Female Victims Of Rape,Unknown Age,0
+2013,Total Victims Of Outrage Of Modesty,Above 21 Years Old,789
+2013,Total Victims Of Outrage Of Modesty,21 Years Old And Below,642
+2013,Total Victims Of Outrage Of Modesty,Youths (7 To 19 Years Old),502
+2013,Total Victims Of Outrage Of Modesty,Unknown Age,4
+2013,Male Victims Of Outrage Of Modesty,Above 21 Years Old,22
+2013,Male Victims Of Outrage Of Modesty,21 Years Old And Below,63
+2013,Male Victims Of Outrage Of Modesty,Youths (7 To 19 Years Old),56
+2013,Male Victims Of Outrage Of Modesty,Unknown Age,1
+2013,Female Victims Of Outrage Of Modesty,Above 21 Years Old,767
+2013,Female Victims Of Outrage Of Modesty,21 Years Old And Below,579
+2013,Female Victims Of Outrage Of Modesty,Youths (7 To 19 Years Old),446
+2013,Female Victims Of Outrage Of Modesty,Unknown Age,3
+2013,Total Victims Of Robbery,Above 21 Years Old,224
+2013,Total Victims Of Robbery,21 Years Old And Below,50
+2013,Total Victims Of Robbery,Youths (7 To 19 Years Old),36
+2013,Total Victims Of Robbery,Unknown Age,1
+2013,Male Victims Of Robbery,Above 21 Years Old,157
+2013,Male Victims Of Robbery,21 Years Old And Below,37
+2013,Male Victims Of Robbery,Youths (7 To 19 Years Old),27
+2013,Male Victims Of Robbery,Unknown Age,1
+2013,Female Victims Of Robbery,Above 21 Years Old,67
+2013,Female Victims Of Robbery,21 Years Old And Below,13
+2013,Female Victims Of Robbery,Youths (7 To 19 Years Old),9
+2013,Female Victims Of Robbery,Unknown Age,0
+2013,Total Victims Of Snatch Theft,Above 21 Years Old,199
+2013,Total Victims Of Snatch Theft,21 Years Old And Below,38
+2013,Total Victims Of Snatch Theft,Youths (7 To 19 Years Old),28
+2013,Total Victims Of Snatch Theft,Unknown Age,4
+2013,Male Victims Of Snatch Theft,Above 21 Years Old,37
+2013,Male Victims Of Snatch Theft,21 Years Old And Below,8
+2013,Male Victims Of Snatch Theft,Youths (7 To 19 Years Old),7
+2013,Male Victims Of Snatch Theft,Unknown Age,0
+2013,Female Victims Of Snatch Theft,Above 21 Years Old,162
+2013,Female Victims Of Snatch Theft,21 Years Old And Below,30
+2013,Female Victims Of Snatch Theft,Youths (7 To 19 Years Old),21
+2013,Female Victims Of Snatch Theft,Unknown Age,4
+2013,Total Victims Of Rioting,Above 21 Years Old,201
+2013,Total Victims Of Rioting,21 Years Old And Below,93
+2013,Total Victims Of Rioting,Youths (7 To 19 Years Old),61
+2013,Total Victims Of Rioting,Unknown Age,1
+2013,Male Victims Of Rioting,Above 21 Years Old,190
+2013,Male Victims Of Rioting,21 Years Old And Below,83
+2013,Male Victims Of Rioting,Youths (7 To 19 Years Old),56
+2013,Male Victims Of Rioting,Unknown Age,1
+2013,Female Victims Of Rioting,Above 21 Years Old,11
+2013,Female Victims Of Rioting,21 Years Old And Below,10
+2013,Female Victims Of Rioting,Youths (7 To 19 Years Old),5
+2013,Female Victims Of Rioting,Unknown Age,0
+2013,Total Victims Of Serious Hurt,Above 21 Years Old,422
+2013,Total Victims Of Serious Hurt,21 Years Old And Below,87
+2013,Total Victims Of Serious Hurt,Youths (7 To 19 Years Old),62
+2013,Total Victims Of Serious Hurt,Unknown Age,2
+2013,Male Victims Of Serious Hurt,Above 21 Years Old,342
+2013,Male Victims Of Serious Hurt,21 Years Old And Below,74
+2013,Male Victims Of Serious Hurt,Youths (7 To 19 Years Old),51
+2013,Male Victims Of Serious Hurt,Unknown Age,2
+2013,Female Victims Of Serious Hurt,Above 21 Years Old,80
+2013,Female Victims Of Serious Hurt,21 Years Old And Below,13
+2013,Female Victims Of Serious Hurt,Youths (7 To 19 Years Old),11
+2013,Female Victims Of Serious Hurt,Unknown Age,0
+2013,Total Victims Of Cheating & Related,Above 21 Years Old,1989
+2013,Total Victims Of Cheating & Related,21 Years Old And Below,321
+2013,Total Victims Of Cheating & Related,Youths (7 To 19 Years Old),188
+2013,Total Victims Of Cheating & Related,Unknown Age,2
+2013,Male Victims Of Cheating & Related,Above 21 Years Old,1147
+2013,Male Victims Of Cheating & Related,21 Years Old And Below,180
+2013,Male Victims Of Cheating & Related,Youths (7 To 19 Years Old),108
+2013,Male Victims Of Cheating & Related,Unknown Age,1
+2013,Female Victims Of Cheating & Related,Above 21 Years Old,842
+2013,Female Victims Of Cheating & Related,21 Years Old And Below,141
+2013,Female Victims Of Cheating & Related,Youths (7 To 19 Years Old),80
+2013,Female Victims Of Cheating & Related,Unknown Age,1
+2013,Female Victims Of Cheating & Related,Unknown Victims Of Cheating & Related,0
+2014,Total Victims Of Murder,Above 21 Years Old,12
+2014,Total Victims Of Murder,21 Years Old And Below,2
+2014,Total Victims Of Murder,Youths (7 To 19 Years Old),1
+2014,Total Victims Of Murder,Unknown Age,0
+2014,Male Victims Of Murder,Above 21 Years Old,5
+2014,Male Victims Of Murder,21 Years Old And Below,2
+2014,Male Victims Of Murder,Youths (7 To 19 Years Old),1
+2014,Male Victims Of Murder,Unknown Age,0
+2014,Female Victims Of Murder,Above 21 Years Old,7
+2014,Female Victims Of Murder,21 Years Old And Below,0
+2014,Female Victims Of Murder,Youths (7 To 19 Years Old),0
+2014,Female Victims Of Murder,Unknown Age,0
+2014,Total Victims Of Rape,Above 21 Years Old,51
+2014,Total Victims Of Rape,21 Years Old And Below,115
+2014,Total Victims Of Rape,Youths (7 To 19 Years Old),104
+2014,Total Victims Of Rape,Unknown Age,0
+2014,Male Victims Of Rape,Above 21 Years Old,0
+2014,Male Victims Of Rape,21 Years Old And Below,0
+2014,Male Victims Of Rape,Youths (7 To 19 Years Old),0
+2014,Male Victims Of Rape,Unknown Age,0
+2014,Female Victims Of Rape,Above 21 Years Old,51
+2014,Female Victims Of Rape,21 Years Old And Below,115
+2014,Female Victims Of Rape,Youths (7 To 19 Years Old),104
+2014,Female Victims Of Rape,Unknown Age,0
+2014,Total Victims Of Outrage Of Modesty,Above 21 Years Old,811
+2014,Total Victims Of Outrage Of Modesty,21 Years Old And Below,635
+2014,Total Victims Of Outrage Of Modesty,Youths (7 To 19 Years Old),504
+2014,Total Victims Of Outrage Of Modesty,Unknown Age,4
+2014,Male Victims Of Outrage Of Modesty,Above 21 Years Old,18
+2014,Male Victims Of Outrage Of Modesty,21 Years Old And Below,67
+2014,Male Victims Of Outrage Of Modesty,Youths (7 To 19 Years Old),65
+2014,Male Victims Of Outrage Of Modesty,Unknown Age,0
+2014,Female Victims Of Outrage Of Modesty,Above 21 Years Old,793
+2014,Female Victims Of Outrage Of Modesty,21 Years Old And Below,568
+2014,Female Victims Of Outrage Of Modesty,Youths (7 To 19 Years Old),439
+2014,Female Victims Of Outrage Of Modesty,Unknown Age,4
+2014,Total Victims Of Robbery,Above 21 Years Old,201
+2014,Total Victims Of Robbery,21 Years Old And Below,51
+2014,Total Victims Of Robbery,Youths (7 To 19 Years Old),42
+2014,Total Victims Of Robbery,Unknown Age,1
+2014,Male Victims Of Robbery,Above 21 Years Old,155
+2014,Male Victims Of Robbery,21 Years Old And Below,38
+2014,Male Victims Of Robbery,Youths (7 To 19 Years Old),33
+2014,Male Victims Of Robbery,Unknown Age,0
+2014,Female Victims Of Robbery,Above 21 Years Old,46
+2014,Female Victims Of Robbery,21 Years Old And Below,13
+2014,Female Victims Of Robbery,Youths (7 To 19 Years Old),9
+2014,Female Victims Of Robbery,Unknown Age,1
+2014,Total Victims Of Snatch Theft,Above 21 Years Old,150
+2014,Total Victims Of Snatch Theft,21 Years Old And Below,15
+2014,Total Victims Of Snatch Theft,Youths (7 To 19 Years Old),12
+2014,Total Victims Of Snatch Theft,Unknown Age,0
+2014,Male Victims Of Snatch Theft,Above 21 Years Old,36
+2014,Male Victims Of Snatch Theft,21 Years Old And Below,3
+2014,Male Victims Of Snatch Theft,Youths (7 To 19 Years Old),3
+2014,Male Victims Of Snatch Theft,Unknown Age,0
+2014,Female Victims Of Snatch Theft,Above 21 Years Old,114
+2014,Female Victims Of Snatch Theft,21 Years Old And Below,12
+2014,Female Victims Of Snatch Theft,Youths (7 To 19 Years Old),9
+2014,Female Victims Of Snatch Theft,Unknown Age,0
+2014,Total Victims Of Rioting,Above 21 Years Old,174
+2014,Total Victims Of Rioting,21 Years Old And Below,78
+2014,Total Victims Of Rioting,Youths (7 To 19 Years Old),62
+2014,Total Victims Of Rioting,Unknown Age,0
+2014,Male Victims Of Rioting,Above 21 Years Old,163
+2014,Male Victims Of Rioting,21 Years Old And Below,73
+2014,Male Victims Of Rioting,Youths (7 To 19 Years Old),60
+2014,Male Victims Of Rioting,Unknown Age,0
+2014,Female Victims Of Rioting,Above 21 Years Old,11
+2014,Female Victims Of Rioting,21 Years Old And Below,5
+2014,Female Victims Of Rioting,Youths (7 To 19 Years Old),2
+2014,Female Victims Of Rioting,Unknown Age,0
+2014,Total Victims Of Serious Hurt,Above 21 Years Old,436
+2014,Total Victims Of Serious Hurt,21 Years Old And Below,79
+2014,Total Victims Of Serious Hurt,Youths (7 To 19 Years Old),61
+2014,Total Victims Of Serious Hurt,Unknown Age,0
+2014,Male Victims Of Serious Hurt,Above 21 Years Old,358
+2014,Male Victims Of Serious Hurt,21 Years Old And Below,66
+2014,Male Victims Of Serious Hurt,Youths (7 To 19 Years Old),52
+2014,Male Victims Of Serious Hurt,Unknown Age,0
+2014,Female Victims Of Serious Hurt,Above 21 Years Old,78
+2014,Female Victims Of Serious Hurt,21 Years Old And Below,13
+2014,Female Victims Of Serious Hurt,Youths (7 To 19 Years Old),9
+2014,Female Victims Of Serious Hurt,Unknown Age,0
+2014,Total Victims Of Cheating & Related,Above 21 Years Old,3417
+2014,Total Victims Of Cheating & Related,21 Years Old And Below,528
+2014,Total Victims Of Cheating & Related,Youths (7 To 19 Years Old),308
+2014,Total Victims Of Cheating & Related,Unknown Age,2
+2014,Male Victims Of Cheating & Related,Above 21 Years Old,1949
+2014,Male Victims Of Cheating & Related,21 Years Old And Below,311
+2014,Male Victims Of Cheating & Related,Youths (7 To 19 Years Old),188
+2014,Male Victims Of Cheating & Related,Unknown Age,1
+2014,Female Victims Of Cheating & Related,Above 21 Years Old,1468
+2014,Female Victims Of Cheating & Related,21 Years Old And Below,217
+2014,Female Victims Of Cheating & Related,Youths (7 To 19 Years Old),120
+2014,Female Victims Of Cheating & Related,Unknown Age,1
+2014,Female Victims Of Cheating & Related,Unknown Victims Of Cheating & Related,0
+2015,Total Victims Of Murder,Above 21 Years Old,13
+2015,Total Victims Of Murder,21 Years Old And Below,1
+2015,Total Victims Of Murder,Youths (7 To 19 Years Old),0
+2015,Total Victims Of Murder,Unknown Age,0
+2015,Male Victims Of Murder,Above 21 Years Old,10
+2015,Male Victims Of Murder,21 Years Old And Below,1
+2015,Male Victims Of Murder,Youths (7 To 19 Years Old),0
+2015,Male Victims Of Murder,Unknown Age,0
+2015,Female Victims Of Murder,Above 21 Years Old,3
+2015,Female Victims Of Murder,21 Years Old And Below,0
+2015,Female Victims Of Murder,Youths (7 To 19 Years Old),0
+2015,Female Victims Of Murder,Unknown Age,0
+2015,Total Victims Of Rape,Above 21 Years Old,60
+2015,Total Victims Of Rape,21 Years Old And Below,107
+2015,Total Victims Of Rape,Youths (7 To 19 Years Old),93
+2015,Total Victims Of Rape,Unknown Age,0
+2015,Male Victims Of Rape,Above 21 Years Old,0
+2015,Male Victims Of Rape,21 Years Old And Below,0
+2015,Male Victims Of Rape,Youths (7 To 19 Years Old),0
+2015,Male Victims Of Rape,Unknown Age,0
+2015,Female Victims Of Rape,Above 21 Years Old,60
+2015,Female Victims Of Rape,21 Years Old And Below,107
+2015,Female Victims Of Rape,Youths (7 To 19 Years Old),93
+2015,Female Victims Of Rape,Unknown Age,0
+2015,Total Victims Of Outrage Of Modesty,Above 21 Years Old,787
+2015,Total Victims Of Outrage Of Modesty,21 Years Old And Below,578
+2015,Total Victims Of Outrage Of Modesty,Youths (7 To 19 Years Old),465
+2015,Total Victims Of Outrage Of Modesty,Unknown Age,4
+2015,Male Victims Of Outrage Of Modesty,Above 21 Years Old,31
+2015,Male Victims Of Outrage Of Modesty,21 Years Old And Below,59
+2015,Male Victims Of Outrage Of Modesty,Youths (7 To 19 Years Old),49
+2015,Male Victims Of Outrage Of Modesty,Unknown Age,0
+2015,Female Victims Of Outrage Of Modesty,Above 21 Years Old,756
+2015,Female Victims Of Outrage Of Modesty,21 Years Old And Below,519
+2015,Female Victims Of Outrage Of Modesty,Youths (7 To 19 Years Old),416
+2015,Female Victims Of Outrage Of Modesty,Unknown Age,4
+2015,Total Victims Of Robbery,Above 21 Years Old,120
+2015,Total Victims Of Robbery,21 Years Old And Below,12
+2015,Total Victims Of Robbery,Youths (7 To 19 Years Old),7
+2015,Total Victims Of Robbery,Unknown Age,0
+2015,Male Victims Of Robbery,Above 21 Years Old,88
+2015,Male Victims Of Robbery,21 Years Old And Below,8
+2015,Male Victims Of Robbery,Youths (7 To 19 Years Old),4
+2015,Male Victims Of Robbery,Unknown Age,0
+2015,Female Victims Of Robbery,Above 21 Years Old,32
+2015,Female Victims Of Robbery,21 Years Old And Below,4
+2015,Female Victims Of Robbery,Youths (7 To 19 Years Old),3
+2015,Female Victims Of Robbery,Unknown Age,0
+2015,Total Victims Of Snatch Theft,Above 21 Years Old,76
+2015,Total Victims Of Snatch Theft,21 Years Old And Below,8
+2015,Total Victims Of Snatch Theft,Youths (7 To 19 Years Old),8
+2015,Total Victims Of Snatch Theft,Unknown Age,0
+2015,Male Victims Of Snatch Theft,Above 21 Years Old,9
+2015,Male Victims Of Snatch Theft,21 Years Old And Below,3
+2015,Male Victims Of Snatch Theft,Youths (7 To 19 Years Old),3
+2015,Male Victims Of Snatch Theft,Unknown Age,0
+2015,Female Victims Of Snatch Theft,Above 21 Years Old,67
+2015,Female Victims Of Snatch Theft,21 Years Old And Below,5
+2015,Female Victims Of Snatch Theft,Youths (7 To 19 Years Old),5
+2015,Female Victims Of Snatch Theft,Unknown Age,0
+2015,Total Victims Of Rioting,Above 21 Years Old,112
+2015,Total Victims Of Rioting,21 Years Old And Below,68
+2015,Total Victims Of Rioting,Youths (7 To 19 Years Old),50
+2015,Total Victims Of Rioting,Unknown Age,0
+2015,Male Victims Of Rioting,Above 21 Years Old,108
+2015,Male Victims Of Rioting,21 Years Old And Below,57
+2015,Male Victims Of Rioting,Youths (7 To 19 Years Old),44
+2015,Male Victims Of Rioting,Unknown Age,0
+2015,Female Victims Of Rioting,Above 21 Years Old,4
+2015,Female Victims Of Rioting,21 Years Old And Below,11
+2015,Female Victims Of Rioting,Youths (7 To 19 Years Old),6
+2015,Female Victims Of Rioting,Unknown Age,0
+2015,Total Victims Of Serious Hurt,Above 21 Years Old,449
+2015,Total Victims Of Serious Hurt,21 Years Old And Below,73
+2015,Total Victims Of Serious Hurt,Youths (7 To 19 Years Old),46
+2015,Total Victims Of Serious Hurt,Unknown Age,0
+2015,Male Victims Of Serious Hurt,Above 21 Years Old,353
+2015,Male Victims Of Serious Hurt,21 Years Old And Below,56
+2015,Male Victims Of Serious Hurt,Youths (7 To 19 Years Old),34
+2015,Male Victims Of Serious Hurt,Unknown Age,0
+2015,Female Victims Of Serious Hurt,Above 21 Years Old,96
+2015,Female Victims Of Serious Hurt,21 Years Old And Below,17
+2015,Female Victims Of Serious Hurt,Youths (7 To 19 Years Old),12
+2015,Female Victims Of Serious Hurt,Unknown Age,0
+2015,Total Victims Of Cheating & Related,Above 21 Years Old,5898
+2015,Total Victims Of Cheating & Related,21 Years Old And Below,925
+2015,Total Victims Of Cheating & Related,Youths (7 To 19 Years Old),519
+2015,Total Victims Of Cheating & Related,Unknown Age,0
+2015,Male Victims Of Cheating & Related,Above 21 Years Old,3614
+2015,Male Victims Of Cheating & Related,21 Years Old And Below,645
+2015,Male Victims Of Cheating & Related,Youths (7 To 19 Years Old),360
+2015,Male Victims Of Cheating & Related,Unknown Age,0
+2015,Female Victims Of Cheating & Related,Above 21 Years Old,2284
+2015,Female Victims Of Cheating & Related,21 Years Old And Below,280
+2015,Female Victims Of Cheating & Related,Youths (7 To 19 Years Old),159
+2015,Female Victims Of Cheating & Related,Unknown Age,0
+2015,Female Victims Of Cheating & Related,Unknown Victims Of Cheating & Related,0
+2016,Total Victims Of Murder,Above 21 Years Old,17
+2016,Total Victims Of Murder,21 Years Old And Below,1
+2016,Total Victims Of Murder,Youths (7 To 19 Years Old),0
+2016,Total Victims Of Murder,Unknown Age,0
+2016,Male Victims Of Murder,Above 21 Years Old,10
+2016,Male Victims Of Murder,21 Years Old And Below,1
+2016,Male Victims Of Murder,Youths (7 To 19 Years Old),0
+2016,Male Victims Of Murder,Unknown Age,0
+2016,Female Victims Of Murder,Above 21 Years Old,7
+2016,Female Victims Of Murder,21 Years Old And Below,0
+2016,Female Victims Of Murder,Youths (7 To 19 Years Old),0
+2016,Female Victims Of Murder,Unknown Age,0
+2016,Total Victims Of Rape,Above 21 Years Old,45
+2016,Total Victims Of Rape,21 Years Old And Below,104
+2016,Total Victims Of Rape,Youths (7 To 19 Years Old),95
+2016,Total Victims Of Rape,Unknown Age,0
+2016,Male Victims Of Rape,Above 21 Years Old,0
+2016,Male Victims Of Rape,21 Years Old And Below,0
+2016,Male Victims Of Rape,Youths (7 To 19 Years Old),0
+2016,Male Victims Of Rape,Unknown Age,0
+2016,Female Victims Of Rape,Above 21 Years Old,45
+2016,Female Victims Of Rape,21 Years Old And Below,104
+2016,Female Victims Of Rape,Youths (7 To 19 Years Old),95
+2016,Female Victims Of Rape,Unknown Age,0
+2016,Total Victims Of Outrage Of Modesty,Above 21 Years Old,812
+2016,Total Victims Of Outrage Of Modesty,21 Years Old And Below,525
+2016,Total Victims Of Outrage Of Modesty,Youths (7 To 19 Years Old),400
+2016,Total Victims Of Outrage Of Modesty,Unknown Age,10
+2016,Male Victims Of Outrage Of Modesty,Above 21 Years Old,38
+2016,Male Victims Of Outrage Of Modesty,21 Years Old And Below,59
+2016,Male Victims Of Outrage Of Modesty,Youths (7 To 19 Years Old),51
+2016,Male Victims Of Outrage Of Modesty,Unknown Age,1
+2016,Female Victims Of Outrage Of Modesty,Above 21 Years Old,774
+2016,Female Victims Of Outrage Of Modesty,21 Years Old And Below,466
+2016,Female Victims Of Outrage Of Modesty,Youths (7 To 19 Years Old),349
+2016,Female Victims Of Outrage Of Modesty,Unknown Age,9
+2016,Total Victims Of Robbery,Above 21 Years Old,94
+2016,Total Victims Of Robbery,21 Years Old And Below,13
+2016,Total Victims Of Robbery,Youths (7 To 19 Years Old),8
+2016,Total Victims Of Robbery,Unknown Age,1
+2016,Male Victims Of Robbery,Above 21 Years Old,50
+2016,Male Victims Of Robbery,21 Years Old And Below,10
+2016,Male Victims Of Robbery,Youths (7 To 19 Years Old),8
+2016,Male Victims Of Robbery,Unknown Age,0
+2016,Female Victims Of Robbery,Above 21 Years Old,44
+2016,Female Victims Of Robbery,21 Years Old And Below,3
+2016,Female Victims Of Robbery,Youths (7 To 19 Years Old),0
+2016,Female Victims Of Robbery,Unknown Age,1
+2016,Total Victims Of Snatch Theft,Above 21 Years Old,53
+2016,Total Victims Of Snatch Theft,21 Years Old And Below,10
+2016,Total Victims Of Snatch Theft,Youths (7 To 19 Years Old),7
+2016,Total Victims Of Snatch Theft,Unknown Age,0
+2016,Male Victims Of Snatch Theft,Above 21 Years Old,12
+2016,Male Victims Of Snatch Theft,21 Years Old And Below,4
+2016,Male Victims Of Snatch Theft,Youths (7 To 19 Years Old),3
+2016,Male Victims Of Snatch Theft,Unknown Age,0
+2016,Female Victims Of Snatch Theft,Above 21 Years Old,41
+2016,Female Victims Of Snatch Theft,21 Years Old And Below,6
+2016,Female Victims Of Snatch Theft,Youths (7 To 19 Years Old),4
+2016,Female Victims Of Snatch Theft,Unknown Age,0
+2016,Total Victims Of Rioting,Above 21 Years Old,122
+2016,Total Victims Of Rioting,21 Years Old And Below,72
+2016,Total Victims Of Rioting,Youths (7 To 19 Years Old),59
+2016,Total Victims Of Rioting,Unknown Age,0
+2016,Male Victims Of Rioting,Above 21 Years Old,118
+2016,Male Victims Of Rioting,21 Years Old And Below,61
+2016,Male Victims Of Rioting,Youths (7 To 19 Years Old),48
+2016,Male Victims Of Rioting,Unknown Age,0
+2016,Female Victims Of Rioting,Above 21 Years Old,4
+2016,Female Victims Of Rioting,21 Years Old And Below,11
+2016,Female Victims Of Rioting,Youths (7 To 19 Years Old),11
+2016,Female Victims Of Rioting,Unknown Age,0
+2016,Total Victims Of Serious Hurt,Above 21 Years Old,448
+2016,Total Victims Of Serious Hurt,21 Years Old And Below,83
+2016,Total Victims Of Serious Hurt,Youths (7 To 19 Years Old),52
+2016,Total Victims Of Serious Hurt,Unknown Age,0
+2016,Male Victims Of Serious Hurt,Above 21 Years Old,343
+2016,Male Victims Of Serious Hurt,21 Years Old And Below,71
+2016,Male Victims Of Serious Hurt,Youths (7 To 19 Years Old),43
+2016,Male Victims Of Serious Hurt,Unknown Age,0
+2016,Female Victims Of Serious Hurt,Above 21 Years Old,105
+2016,Female Victims Of Serious Hurt,21 Years Old And Below,12
+2016,Female Victims Of Serious Hurt,Youths (7 To 19 Years Old),9
+2016,Female Victims Of Serious Hurt,Unknown Age,0
+2016,Total Victims Of Cheating & Related,Above 21 Years Old,5748
+2016,Total Victims Of Cheating & Related,21 Years Old And Below,892
+2016,Total Victims Of Cheating & Related,Youths (7 To 19 Years Old),511
+2016,Total Victims Of Cheating & Related,Unknown Age,1
+2016,Male Victims Of Cheating & Related,Above 21 Years Old,3171
+2016,Male Victims Of Cheating & Related,21 Years Old And Below,549
+2016,Male Victims Of Cheating & Related,Youths (7 To 19 Years Old),303
+2016,Male Victims Of Cheating & Related,Unknown Age,0
+2016,Female Victims Of Cheating & Related,Above 21 Years Old,2577
+2016,Female Victims Of Cheating & Related,21 Years Old And Below,343
+2016,Female Victims Of Cheating & Related,Youths (7 To 19 Years Old),208
+2016,Female Victims Of Cheating & Related,Unknown Age,1
+2016,Female Victims Of Cheating & Related,Unknown Victims Of Cheating & Related,0
+2017,Total Victims Of Murder,Above 21 Years Old,10
+2017,Total Victims Of Murder,21 Years Old And Below,1
+2017,Total Victims Of Murder,Youths (7 To 19 Years Old),0
+2017,Total Victims Of Murder,Unknown Age,0
+2017,Male Victims Of Murder,Above 21 Years Old,6
+2017,Male Victims Of Murder,21 Years Old And Below,0
+2017,Male Victims Of Murder,Youths (7 To 19 Years Old),0
+2017,Male Victims Of Murder,Unknown Age,0
+2017,Female Victims Of Murder,Above 21 Years Old,4
+2017,Female Victims Of Murder,21 Years Old And Below,1
+2017,Female Victims Of Murder,Youths (7 To 19 Years Old),0
+2017,Female Victims Of Murder,Unknown Age,0
+2017,Total Victims Of Rape,Above 21 Years Old,73
+2017,Total Victims Of Rape,21 Years Old And Below,116
+2017,Total Victims Of Rape,Youths (7 To 19 Years Old),97
+2017,Total Victims Of Rape,Unknown Age,0
+2017,Male Victims Of Rape,Above 21 Years Old,0
+2017,Male Victims Of Rape,21 Years Old And Below,0
+2017,Male Victims Of Rape,Youths (7 To 19 Years Old),0
+2017,Male Victims Of Rape,Unknown Age,0
+2017,Female Victims Of Rape,Above 21 Years Old,73
+2017,Female Victims Of Rape,21 Years Old And Below,116
+2017,Female Victims Of Rape,Youths (7 To 19 Years Old),97
+2017,Female Victims Of Rape,Unknown Age,0
+2017,Total Victims Of Outrage Of Modesty,Above 21 Years Old,958
+2017,Total Victims Of Outrage Of Modesty,21 Years Old And Below,708
+2017,Total Victims Of Outrage Of Modesty,Youths (7 To 19 Years Old),554
+2017,Total Victims Of Outrage Of Modesty,Unknown Age,6
+2017,Male Victims Of Outrage Of Modesty,Above 21 Years Old,26
+2017,Male Victims Of Outrage Of Modesty,21 Years Old And Below,90
+2017,Male Victims Of Outrage Of Modesty,Youths (7 To 19 Years Old),79
+2017,Male Victims Of Outrage Of Modesty,Unknown Age,0
+2017,Female Victims Of Outrage Of Modesty,Above 21 Years Old,932
+2017,Female Victims Of Outrage Of Modesty,21 Years Old And Below,618
+2017,Female Victims Of Outrage Of Modesty,Youths (7 To 19 Years Old),475
+2017,Female Victims Of Outrage Of Modesty,Unknown Age,6
+2017,Total Victims Of Robbery,Above 21 Years Old,76
+2017,Total Victims Of Robbery,21 Years Old And Below,5
+2017,Total Victims Of Robbery,Youths (7 To 19 Years Old),2
+2017,Total Victims Of Robbery,Unknown Age,0
+2017,Male Victims Of Robbery,Above 21 Years Old,58
+2017,Male Victims Of Robbery,21 Years Old And Below,4
+2017,Male Victims Of Robbery,Youths (7 To 19 Years Old),2
+2017,Male Victims Of Robbery,Unknown Age,0
+2017,Female Victims Of Robbery,Above 21 Years Old,18
+2017,Female Victims Of Robbery,21 Years Old And Below,1
+2017,Female Victims Of Robbery,Youths (7 To 19 Years Old),0
+2017,Female Victims Of Robbery,Unknown Age,0
+2017,Total Victims Of Snatch Theft,Above 21 Years Old,42
+2017,Total Victims Of Snatch Theft,21 Years Old And Below,9
+2017,Total Victims Of Snatch Theft,Youths (7 To 19 Years Old),8
+2017,Total Victims Of Snatch Theft,Unknown Age,0
+2017,Male Victims Of Snatch Theft,Above 21 Years Old,13
+2017,Male Victims Of Snatch Theft,21 Years Old And Below,3
+2017,Male Victims Of Snatch Theft,Youths (7 To 19 Years Old),3
+2017,Male Victims Of Snatch Theft,Unknown Age,0
+2017,Female Victims Of Snatch Theft,Above 21 Years Old,29
+2017,Female Victims Of Snatch Theft,21 Years Old And Below,6
+2017,Female Victims Of Snatch Theft,Youths (7 To 19 Years Old),5
+2017,Female Victims Of Snatch Theft,Unknown Age,0
+2017,Total Victims Of Rioting,Above 21 Years Old,102
+2017,Total Victims Of Rioting,21 Years Old And Below,54
+2017,Total Victims Of Rioting,Youths (7 To 19 Years Old),39
+2017,Total Victims Of Rioting,Unknown Age,0
+2017,Male Victims Of Rioting,Above 21 Years Old,95
+2017,Male Victims Of Rioting,21 Years Old And Below,47
+2017,Male Victims Of Rioting,Youths (7 To 19 Years Old),35
+2017,Male Victims Of Rioting,Unknown Age,0
+2017,Female Victims Of Rioting,Above 21 Years Old,7
+2017,Female Victims Of Rioting,21 Years Old And Below,7
+2017,Female Victims Of Rioting,Youths (7 To 19 Years Old),4
+2017,Female Victims Of Rioting,Unknown Age,0
+2017,Total Victims Of Serious Hurt,Above 21 Years Old,391
+2017,Total Victims Of Serious Hurt,21 Years Old And Below,65
+2017,Total Victims Of Serious Hurt,Youths (7 To 19 Years Old),46
+2017,Total Victims Of Serious Hurt,Unknown Age,0
+2017,Male Victims Of Serious Hurt,Above 21 Years Old,311
+2017,Male Victims Of Serious Hurt,21 Years Old And Below,47
+2017,Male Victims Of Serious Hurt,Youths (7 To 19 Years Old),33
+2017,Male Victims Of Serious Hurt,Unknown Age,0
+2017,Female Victims Of Serious Hurt,Above 21 Years Old,80
+2017,Female Victims Of Serious Hurt,21 Years Old And Below,18
+2017,Female Victims Of Serious Hurt,Youths (7 To 19 Years Old),13
+2017,Female Victims Of Serious Hurt,Unknown Age,0
+2017,Total Victims Of Cheating & Related,Above 21 Years Old,5923
+2017,Total Victims Of Cheating & Related,21 Years Old And Below,795
+2017,Total Victims Of Cheating & Related,Youths (7 To 19 Years Old),458
+2017,Total Victims Of Cheating & Related,Unknown Age,0
+2017,Male Victims Of Cheating & Related,Above 21 Years Old,3028
+2017,Male Victims Of Cheating & Related,21 Years Old And Below,491
+2017,Male Victims Of Cheating & Related,Youths (7 To 19 Years Old),284
+2017,Male Victims Of Cheating & Related,Unknown Age,0
+2017,Female Victims Of Cheating & Related,Above 21 Years Old,2895
+2017,Female Victims Of Cheating & Related,21 Years Old And Below,304
+2017,Female Victims Of Cheating & Related,Youths (7 To 19 Years Old),174
+2017,Female Victims Of Cheating & Related,Unknown Age,0
+2017,Female Victims Of Cheating & Related,Unknown Victims Of Cheating & Related,0
+2018,Total Victims Of Murder,Above 21 Years Old,7
+2018,Total Victims Of Murder,21 Years Old And Below,2
+2018,Total Victims Of Murder,Youths (7 To 19 Years Old),0
+2018,Total Victims Of Murder,Unknown Age,0
+2018,Male Victims Of Murder,Above 21 Years Old,2
+2018,Male Victims Of Murder,21 Years Old And Below,0
+2018,Male Victims Of Murder,Youths (7 To 19 Years Old),0
+2018,Male Victims Of Murder,Unknown Age,0
+2018,Female Victims Of Murder,Above 21 Years Old,5
+2018,Female Victims Of Murder,21 Years Old And Below,2
+2018,Female Victims Of Murder,Youths (7 To 19 Years Old),0
+2018,Female Victims Of Murder,Unknown Age,0
+2018,Total Victims Of Rape,Above 21 Years Old,85
+2018,Total Victims Of Rape,21 Years Old And Below,129
+2018,Total Victims Of Rape,Youths (7 To 19 Years Old),114
+2018,Total Victims Of Rape,Unknown Age,1
+2018,Male Victims Of Rape,Above 21 Years Old,0
+2018,Male Victims Of Rape,21 Years Old And Below,0
+2018,Male Victims Of Rape,Youths (7 To 19 Years Old),0
+2018,Male Victims Of Rape,Unknown Age,0
+2018,Female Victims Of Rape,Above 21 Years Old,85
+2018,Female Victims Of Rape,21 Years Old And Below,129
+2018,Female Victims Of Rape,Youths (7 To 19 Years Old),114
+2018,Female Victims Of Rape,Unknown Age,1
+2018,Total Victims Of Outrage Of Modesty,Above 21 Years Old,1091
+2018,Total Victims Of Outrage Of Modesty,21 Years Old And Below,763
+2018,Total Victims Of Outrage Of Modesty,Youths (7 To 19 Years Old),584
+2018,Total Victims Of Outrage Of Modesty,Unknown Age,4
+2018,Male Victims Of Outrage Of Modesty,Above 21 Years Old,54
+2018,Male Victims Of Outrage Of Modesty,21 Years Old And Below,71
+2018,Male Victims Of Outrage Of Modesty,Youths (7 To 19 Years Old),51
+2018,Male Victims Of Outrage Of Modesty,Unknown Age,0
+2018,Female Victims Of Outrage Of Modesty,Above 21 Years Old,1037
+2018,Female Victims Of Outrage Of Modesty,21 Years Old And Below,692
+2018,Female Victims Of Outrage Of Modesty,Youths (7 To 19 Years Old),533
+2018,Female Victims Of Outrage Of Modesty,Unknown Age,4
+2018,Total Victims Of Robbery,Above 21 Years Old,70
+2018,Total Victims Of Robbery,21 Years Old And Below,11
+2018,Total Victims Of Robbery,Youths (7 To 19 Years Old),5
+2018,Total Victims Of Robbery,Unknown Age,0
+2018,Male Victims Of Robbery,Above 21 Years Old,45
+2018,Male Victims Of Robbery,21 Years Old And Below,8
+2018,Male Victims Of Robbery,Youths (7 To 19 Years Old),5
+2018,Male Victims Of Robbery,Unknown Age,0
+2018,Female Victims Of Robbery,Above 21 Years Old,25
+2018,Female Victims Of Robbery,21 Years Old And Below,3
+2018,Female Victims Of Robbery,Youths (7 To 19 Years Old),0
+2018,Female Victims Of Robbery,Unknown Age,0
+2018,Total Victims Of Snatch Theft,Above 21 Years Old,45
+2018,Total Victims Of Snatch Theft,21 Years Old And Below,5
+2018,Total Victims Of Snatch Theft,Youths (7 To 19 Years Old),4
+2018,Total Victims Of Snatch Theft,Unknown Age,0
+2018,Male Victims Of Snatch Theft,Above 21 Years Old,15
+2018,Male Victims Of Snatch Theft,21 Years Old And Below,1
+2018,Male Victims Of Snatch Theft,Youths (7 To 19 Years Old),1
+2018,Male Victims Of Snatch Theft,Unknown Age,0
+2018,Female Victims Of Snatch Theft,Above 21 Years Old,30
+2018,Female Victims Of Snatch Theft,21 Years Old And Below,4
+2018,Female Victims Of Snatch Theft,Youths (7 To 19 Years Old),3
+2018,Female Victims Of Snatch Theft,Unknown Age,0
+2018,Total Victims Of Rioting,Above 21 Years Old,105
+2018,Total Victims Of Rioting,21 Years Old And Below,56
+2018,Total Victims Of Rioting,Youths (7 To 19 Years Old),49
+2018,Total Victims Of Rioting,Unknown Age,0
+2018,Male Victims Of Rioting,Above 21 Years Old,93
+2018,Male Victims Of Rioting,21 Years Old And Below,50
+2018,Male Victims Of Rioting,Youths (7 To 19 Years Old),44
+2018,Male Victims Of Rioting,Unknown Age,0
+2018,Female Victims Of Rioting,Above 21 Years Old,12
+2018,Female Victims Of Rioting,21 Years Old And Below,6
+2018,Female Victims Of Rioting,Youths (7 To 19 Years Old),5
+2018,Female Victims Of Rioting,Unknown Age,0
+2018,Total Victims Of Serious Hurt,Above 21 Years Old,398
+2018,Total Victims Of Serious Hurt,21 Years Old And Below,54
+2018,Total Victims Of Serious Hurt,Youths (7 To 19 Years Old),42
+2018,Total Victims Of Serious Hurt,Unknown Age,0
+2018,Male Victims Of Serious Hurt,Above 21 Years Old,302
+2018,Male Victims Of Serious Hurt,21 Years Old And Below,39
+2018,Male Victims Of Serious Hurt,Youths (7 To 19 Years Old),28
+2018,Male Victims Of Serious Hurt,Unknown Age,0
+2018,Female Victims Of Serious Hurt,Above 21 Years Old,96
+2018,Female Victims Of Serious Hurt,21 Years Old And Below,15
+2018,Female Victims Of Serious Hurt,Youths (7 To 19 Years Old),14
+2018,Female Victims Of Serious Hurt,Unknown Age,0
+2018,Total Victims Of Cheating & Related,Above 21 Years Old,6537
+2018,Total Victims Of Cheating & Related,21 Years Old And Below,968
+2018,Total Victims Of Cheating & Related,Youths (7 To 19 Years Old),560
+2018,Total Victims Of Cheating & Related,Unknown Age,2
+2018,Male Victims Of Cheating & Related,Above 21 Years Old,3574
+2018,Male Victims Of Cheating & Related,21 Years Old And Below,603
+2018,Male Victims Of Cheating & Related,Youths (7 To 19 Years Old),349
+2018,Male Victims Of Cheating & Related,Unknown Age,2
+2018,Female Victims Of Cheating & Related,Above 21 Years Old,2963
+2018,Female Victims Of Cheating & Related,21 Years Old And Below,365
+2018,Female Victims Of Cheating & Related,Youths (7 To 19 Years Old),211
+2018,Female Victims Of Cheating & Related,Unknown Age,0
+2018,Female Victims Of Cheating & Related,Unknown Victims Of Cheating & Related,0
+2019,Total Victims Of Murder,Above 21 Years Old,9
+2019,Total Victims Of Murder,21 Years Old And Below,3
+2019,Total Victims Of Murder,Youths (7 To 19 Years Old),0
+2019,Total Victims Of Murder,Unknown Age,0
+2019,Male Victims Of Murder,Above 21 Years Old,5
+2019,Male Victims Of Murder,21 Years Old And Below,0
+2019,Male Victims Of Murder,Youths (7 To 19 Years Old),0
+2019,Male Victims Of Murder,Unknown Age,0
+2019,Female Victims Of Murder,Above 21 Years Old,4
+2019,Female Victims Of Murder,21 Years Old And Below,3
+2019,Female Victims Of Murder,Youths (7 To 19 Years Old),0
+2019,Female Victims Of Murder,Unknown Age,0
+2019,Total Victims Of Rape,Above 21 Years Old,107
+2019,Total Victims Of Rape,21 Years Old And Below,181
+2019,Total Victims Of Rape,Youths (7 To 19 Years Old),158
+2019,Total Victims Of Rape,Unknown Age,0
+2019,Male Victims Of Rape,Above 21 Years Old,0
+2019,Male Victims Of Rape,21 Years Old And Below,0
+2019,Male Victims Of Rape,Youths (7 To 19 Years Old),0
+2019,Male Victims Of Rape,Unknown Age,0
+2019,Female Victims Of Rape,Above 21 Years Old,107
+2019,Female Victims Of Rape,21 Years Old And Below,181
+2019,Female Victims Of Rape,Youths (7 To 19 Years Old),158
+2019,Female Victims Of Rape,Unknown Age,0
+2019,Total Victims Of Outrage Of Modesty,Above 21 Years Old,1017
+2019,Total Victims Of Outrage Of Modesty,21 Years Old And Below,715
+2019,Total Victims Of Outrage Of Modesty,Youths (7 To 19 Years Old),547
+2019,Total Victims Of Outrage Of Modesty,Unknown Age,3
+2019,Male Victims Of Outrage Of Modesty,Above 21 Years Old,57
+2019,Male Victims Of Outrage Of Modesty,21 Years Old And Below,112
+2019,Male Victims Of Outrage Of Modesty,Youths (7 To 19 Years Old),95
+2019,Male Victims Of Outrage Of Modesty,Unknown Age,0
+2019,Female Victims Of Outrage Of Modesty,Above 21 Years Old,960
+2019,Female Victims Of Outrage Of Modesty,21 Years Old And Below,603
+2019,Female Victims Of Outrage Of Modesty,Youths (7 To 19 Years Old),452
+2019,Female Victims Of Outrage Of Modesty,Unknown Age,3
+2019,Total Victims Of Robbery,Above 21 Years Old,47
+2019,Total Victims Of Robbery,21 Years Old And Below,17
+2019,Total Victims Of Robbery,Youths (7 To 19 Years Old),12
+2019,Total Victims Of Robbery,Unknown Age,0
+2019,Male Victims Of Robbery,Above 21 Years Old,33
+2019,Male Victims Of Robbery,21 Years Old And Below,13
+2019,Male Victims Of Robbery,Youths (7 To 19 Years Old),9
+2019,Male Victims Of Robbery,Unknown Age,0
+2019,Female Victims Of Robbery,Above 21 Years Old,14
+2019,Female Victims Of Robbery,21 Years Old And Below,4
+2019,Female Victims Of Robbery,Youths (7 To 19 Years Old),3
+2019,Female Victims Of Robbery,Unknown Age,0
+2019,Total Victims Of Snatch Theft,Above 21 Years Old,36
+2019,Total Victims Of Snatch Theft,21 Years Old And Below,1
+2019,Total Victims Of Snatch Theft,Youths (7 To 19 Years Old),1
+2019,Total Victims Of Snatch Theft,Unknown Age,0
+2019,Male Victims Of Snatch Theft,Above 21 Years Old,14
+2019,Male Victims Of Snatch Theft,21 Years Old And Below,0
+2019,Male Victims Of Snatch Theft,Youths (7 To 19 Years Old),0
+2019,Male Victims Of Snatch Theft,Unknown Age,0
+2019,Female Victims Of Snatch Theft,Above 21 Years Old,22
+2019,Female Victims Of Snatch Theft,21 Years Old And Below,1
+2019,Female Victims Of Snatch Theft,Youths (7 To 19 Years Old),1
+2019,Female Victims Of Snatch Theft,Unknown Age,0
+2019,Total Victims Of Rioting,Above 21 Years Old,78
+2019,Total Victims Of Rioting,21 Years Old And Below,59
+2019,Total Victims Of Rioting,Youths (7 To 19 Years Old),45
+2019,Total Victims Of Rioting,Unknown Age,0
+2019,Male Victims Of Rioting,Above 21 Years Old,76
+2019,Male Victims Of Rioting,21 Years Old And Below,54
+2019,Male Victims Of Rioting,Youths (7 To 19 Years Old),40
+2019,Male Victims Of Rioting,Unknown Age,0
+2019,Female Victims Of Rioting,Above 21 Years Old,2
+2019,Female Victims Of Rioting,21 Years Old And Below,5
+2019,Female Victims Of Rioting,Youths (7 To 19 Years Old),5
+2019,Female Victims Of Rioting,Unknown Age,0
+2019,Total Victims Of Serious Hurt,Above 21 Years Old,389
+2019,Total Victims Of Serious Hurt,21 Years Old And Below,62
+2019,Total Victims Of Serious Hurt,Youths (7 To 19 Years Old),42
+2019,Total Victims Of Serious Hurt,Unknown Age,1
+2019,Male Victims Of Serious Hurt,Above 21 Years Old,327
+2019,Male Victims Of Serious Hurt,21 Years Old And Below,50
+2019,Male Victims Of Serious Hurt,Youths (7 To 19 Years Old),32
+2019,Male Victims Of Serious Hurt,Unknown Age,1
+2019,Female Victims Of Serious Hurt,Above 21 Years Old,62
+2019,Female Victims Of Serious Hurt,21 Years Old And Below,12
+2019,Female Victims Of Serious Hurt,Youths (7 To 19 Years Old),10
+2019,Female Victims Of Serious Hurt,Unknown Age,0
+2019,Total Victims Of Cheating & Related,Above 21 Years Old,9489
+2019,Total Victims Of Cheating & Related,21 Years Old And Below,1386
+2019,Total Victims Of Cheating & Related,Youths (7 To 19 Years Old),811
+2019,Total Victims Of Cheating & Related,Unknown Age,7
+2019,Male Victims Of Cheating & Related,Above 21 Years Old,5499
+2019,Male Victims Of Cheating & Related,21 Years Old And Below,878
+2019,Male Victims Of Cheating & Related,Youths (7 To 19 Years Old),500
+2019,Male Victims Of Cheating & Related,Unknown Age,2
+2019,Female Victims Of Cheating & Related,Above 21 Years Old,3990
+2019,Female Victims Of Cheating & Related,21 Years Old And Below,508
+2019,Female Victims Of Cheating & Related,Youths (7 To 19 Years Old),311
+2019,Female Victims Of Cheating & Related,Unknown Age,4
+2019,Female Victims Of Cheating & Related,Unknown Victims Of Cheating & Related,1

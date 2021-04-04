@@ -1,0 +1,73 @@
+,year,offenceType,Female,Male,Total
+0,2011,Cheating & Related,982,1284,2266
+1,2011,Murder,6,10,16
+2,2011,Outrage Of Modesty,1396,82,1478
+3,2011,Rape,150,0,150
+4,2011,Rioting,21,239,260
+5,2011,Robbery,134,315,449
+6,2011,Serious Hurt,71,366,437
+7,2011,Snatch Theft,279,71,350
+8,2012,Cheating & Related,856,960,1816
+9,2012,Murder,6,5,11
+10,2012,Outrage Of Modesty,1413,88,1501
+11,2012,Rape,138,0,138
+12,2012,Rioting,17,302,319
+13,2012,Robbery,111,222,333
+14,2012,Serious Hurt,73,410,483
+15,2012,Snatch Theft,227,63,290
+16,2013,Cheating & Related,983,1327,2310
+17,2013,Murder,6,11,17
+18,2013,Outrage Of Modesty,1346,85,1431
+19,2013,Rape,123,0,123
+20,2013,Rioting,21,273,294
+21,2013,Robbery,80,194,274
+22,2013,Serious Hurt,93,416,509
+23,2013,Snatch Theft,192,45,237
+24,2014,Cheating & Related,1685,2260,3945
+25,2014,Murder,7,7,14
+26,2014,Outrage Of Modesty,1361,85,1446
+27,2014,Rape,166,0,166
+28,2014,Rioting,16,236,252
+29,2014,Robbery,59,193,252
+30,2014,Serious Hurt,91,424,515
+31,2014,Snatch Theft,126,39,165
+32,2015,Cheating & Related,2564,4259,6823
+33,2015,Murder,3,11,14
+34,2015,Outrage Of Modesty,1275,90,1365
+35,2015,Rape,167,0,167
+36,2015,Rioting,15,165,180
+37,2015,Robbery,36,96,132
+38,2015,Serious Hurt,113,409,522
+39,2015,Snatch Theft,72,12,84
+40,2016,Cheating & Related,2920,3720,6640
+41,2016,Murder,7,11,18
+42,2016,Outrage Of Modesty,1240,97,1337
+43,2016,Rape,149,0,149
+44,2016,Rioting,15,179,194
+45,2016,Robbery,47,60,107
+46,2016,Serious Hurt,117,414,531
+47,2016,Snatch Theft,47,16,63
+48,2017,Cheating & Related,3199,3519,6718
+49,2017,Murder,5,6,11
+50,2017,Outrage Of Modesty,1550,116,1666
+51,2017,Rape,189,0,189
+52,2017,Rioting,14,142,156
+53,2017,Robbery,19,62,81
+54,2017,Serious Hurt,98,358,456
+55,2017,Snatch Theft,35,16,51
+56,2018,Cheating & Related,3328,4177,7505
+57,2018,Murder,7,2,9
+58,2018,Outrage Of Modesty,1729,125,1854
+59,2018,Rape,214,0,214
+60,2018,Rioting,18,143,161
+61,2018,Robbery,28,53,81
+62,2018,Serious Hurt,111,341,452
+63,2018,Snatch Theft,34,16,50
+64,2019,Cheating & Related,4498,6377,10875
+65,2019,Murder,7,5,12
+66,2019,Outrage Of Modesty,1563,169,1732
+67,2019,Rape,288,0,288
+68,2019,Rioting,7,130,137
+69,2019,Robbery,18,46,64
+70,2019,Serious Hurt,74,377,451
+71,2019,Snatch Theft,23,14,37
