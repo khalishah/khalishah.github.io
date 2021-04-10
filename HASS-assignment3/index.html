@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Assignment 3</title>
+    <meta name="author" content="Khalishah Nadhirah (1000668)">
+    <!-- Google fonts Second Reference-->  
+    <link href="https://fonts.googleapis.com/css?family=Barlow:100,200,300,400,500&display=swap" rel="stylesheet">
+  <style>
+      * {
+          text-align: center;
+          font-family: 'Barlow', sans-serif;
+          font-weight: 500;
+          font-variant: small-caps slashed-zero;
+        }
+    /* Legend Position Style */
+    .legend {
+        position:absolute;
+        left:20px;
+        top:30px;
+    }
+
+    .axis line, .axis path {
+        fill: none;
+        stroke: #000;
+        shape-rendering: crispEdges;
+    }
+    .main_header {
+        font-size: 30px; 
+        background-color: rgba(105, 94, 84, 0.3);
+    }
+    .tooltip {
+        position: absolute;
+        background: whitesmoke;
+}
+    path:hover {
+        opacity:0.5;
+    }
+  </style>
+</head>
+<body>
+    <div>
+        <h1 style="font-size: 40px;">Distribution of Subzone Population in Singapore</h1>
+        <h3>Khalishah Nadhirah Bte Abu Bakar (1000668)</h3>
+        <p>Population Numbers retrieved from <a href="https://www.singstat.gov.sg/publications/population/population-trends">Department of Statistics Singapore</a></p>
+        <p>Subzones retrieved from <a href="https://data.gov.sg/dataset/master-plan-2014-subzone-boundary-web">data.gov.sg</a></p>
+    </div>
+    <div>
+        <h4 class="main_header">Males' Distribution</h4>
+        <p style="color: rgb(54, 122, 199)"><i>subzones that are coloured as <b style="background-color: black;">black</b> do not have male populations</i></p>
+        <svg id="male"></svg>
+        <div class="tooltip"></div>
+        <h4 class="main_header">Females' Distribution</h4>
+        <p style="color: rgb(221, 58, 99)"><i>subzones that are coloured as <b style="background-color: black;">black</b> do not have female populations</i></p>
+        <svg id="female"></svg>
+        <div class="tooltip"></div>
+    </div>
+
+<!-- Load d3.js -->
+<script src="https://d3js.org/d3.v6.min.js"></script>
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+<script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
+
+<script>
+
+let width = 1000, height = 600;
+
+// Load external data and boot
+Promise.all([d3.json("sgmap.json"), d3.csv("population2020.csv")]).then(data => {
+
+    // Map and projection
+    let projection = d3.geoMercator()
+        .center([103.851959, 1.290270])
+        .fitExtent([[20, 20], [980, 580]], data[0]);
+
+    let geopath = d3.geoPath().projection(projection);
+
+    const array = ["PopMale", "PopFemale"]
+    
+    // Data Binding of Population Numbers to Subzone Polygons
+    array.forEach(function (item, index) {
+        // Loop through each subzone
+        for (var i = 0; i < data[1].length; i++) {
+
+            var dataSubzone = data[1][i].Subzone.toLowerCase();
+            var dataValue = data[1][i][item];
+
+            // Match Subzone values from both files
+            for (var j = 0; j < data[0].features.length; j++) {
+                var jsonSubzone = data[0].features[j].properties.Name.toLowerCase();
+                
+                if (dataSubzone == jsonSubzone) {
+                    data[0].features[j].properties[item] = dataValue;
+                    break;
+                }
+            }
+        }
+    });
+
+    let male_viz = d3.select("#male")
+    .attr("viewBox", "0 0 " + width + " " + height)
+
+    // MALE
+
+    // Declare color scheme
+    var lowColor = '#f7fbff'
+    var highColor = '#08306b'
+    var dataArray = [];
+    for (var d = 0; d < data[1].length; d++) {
+        dataArray.push(parseFloat(data[1][d]["PopMale"]))
+    }
+    var minVal = d3.min(dataArray)
+    var maxVal = d3.max(dataArray)
+    var ramp = d3.scaleLinear().domain([minVal,maxVal]).range([lowColor,highColor])
+
+    // Overlay male population numbers
+    male_viz.append("g")
+        .attr("id", "districts")
+        .selectAll("path")
+        .data(data[0].features)
+        .enter()
+        .append("path")
+        .attr("d", geopath)
+        .style("stroke", "#fff")
+        .style("stroke-width", "1")
+        .style("fill", function(d) {return ramp(d.properties["PopMale"])})
+
+        // tooltip
+        .on("mouseover", (event, d) => {
+            d3.select(".tooltip")
+            .text(d.properties['Subzone Name'] + ": " + parseFloat(d.properties['PopMale']).toFixed(0))
+            .attr('class', 'tooltip')
+            .style("opacity", 1)
+            .style("left", (event.pageX) + "px")
+            .style("top", (event.pageY) + "px");
+        })
+        .on("mouseout", (event, d) => {
+            // d3.select(".tooltip")
+            // .style("opacity", 0)
+        });
+
+    // Legend
+    var w = 120, h = 300;
+
+    var key = male_viz
+        .append("g")
+        .attr("width", w)
+        .attr("height", h)
+        .attr("class", "legend");
+
+    var legend = key.append("defs")
+        .append("svg:linearGradient")
+        .attr("id", "gradientm")
+        .attr("x1", "100%")
+        .attr("y1", "0%")
+        .attr("x2", "100%")
+        .attr("y2", "100%")
+        .attr("spreadMethod", "pad");
+
+    legend.append("stop")
+        .attr("offset", "0%")
+        .attr("stop-color", highColor)
+        .attr("stop-opacity", 1);
+        
+    legend.append("stop")
+        .attr("offset", "100%")
+        .attr("stop-color", lowColor)
+        .attr("stop-opacity", 1);
+
+    key.append("rect")
+        .attr("width", w - 100)
+        .attr("height", h)
+        .style("fill", "url(#gradientm)")
+        .attr("transform", "translate(0,10)");
+
+    var y = d3.scaleLinear()
+        .range([h, 0])
+        .domain([0, maxVal]);
+   
+    var yAxis = d3.axisRight(y);
+
+    key.append("g")
+        .attr("class", "y axis")
+        .attr("transform", "translate(20,10)")
+        .call(yAxis)
+
+    // FEMALE
+
+    // Declare color scheme
+    let female_viz = d3.select("#female")
+    .attr("viewBox", "0 0 " + width + " " + height)
+
+    var lowColor = '#fff5f0'
+    var highColor = '#67000d'
+    var dataArray = [];
+    for (var d = 0; d < data[1].length; d++) {
+        dataArray.push(parseFloat(data[1][d]["PopFemale"]))
+    }
+    var minVal = d3.min(dataArray)
+    var maxVal = d3.max(dataArray)
+    var ramp = d3.scaleLinear().domain([minVal,maxVal]).range([lowColor,highColor])
+    
+    // Overlay female population
+    female_viz.append("g")
+        .attr("id", "districts")
+        .selectAll("path")
+        .data(data[0].features)
+        .enter()
+        .append("path")
+        .attr("d", geopath)
+        .style("stroke", "#fff")
+        .style("stroke-width", "1")
+        .style("fill", function(d) {return ramp(d.properties["PopFemale"])})
+
+        // tooltip
+        .on("mouseover", (event, d) => {
+        d3.select(".tooltip")
+        .text(d.properties['Subzone Name'] + ": " + parseFloat(d.properties['PopFemale']).toFixed(0))
+        .attr('class', 'tooltip')
+        .style("opacity", 1)
+        .style("left", (event.pageX) + "px")
+        .style("top", (event.pageY) + "px");
+    })
+    .on("mouseout", (event, d) => {
+        // d3.select(".tooltip")
+        // .style("opacity", 0)
+    });
+
+    // Legend
+    var w = 120, h = 300;
+
+    var key = female_viz
+        .append("g")
+        .attr("width", w)
+        .attr("height", h)
+        .attr("class", "legend");
+
+    var legend = key.append("defs")
+        .append("svg:linearGradient")
+        .attr("id", "gradientf")
+        .attr("x1", "100%")
+        .attr("y1", "0%")
+        .attr("x2", "100%")
+        .attr("y2", "100%")
+        .attr("spreadMethod", "pad");
+    
+    legend.append("stop")
+        .attr("offset", "0%")
+        .attr("stop-color", highColor)
+        .attr("stop-opacity", 1);
+        
+    legend.append("stop")
+        .attr("offset", "100%")
+        .attr("stop-color", lowColor)
+        .attr("stop-opacity", 1);
+
+    key.append("rect")
+        .attr("width", w - 100)
+        .attr("height", h)
+        .style("fill", "url(#gradientf)")
+        .attr("transform", "translate(0,10)");
+
+    var y = d3.scaleLinear()
+        .range([h, 0])
+        .domain([0, maxVal]);
+   
+    var yAxis = d3.axisRight(y);
+
+    key.append("g")
+        .attr("class", "y axis")
+        .attr("transform", "translate(20,10)")
+        .call(yAxis) 
+
+});
+
+</script>
+</body>
+</html>
