@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<meta charset="utf-8" />
+    <title>Assignment 4</title>
+    <meta name="author" content="Khalishah Nadhirah (1000668)">
+    <!-- Google fonts Second Reference-->  
+    <link href="https://fonts.googleapis.com/css?family=Barlow:100,200,300,400,500&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+	<style>
+	* {
+	text-align: left;
+	font-family: 'Barlow', sans-serif;
+	font-weight: 500;
+	font-variant: small-caps slashed-zero;
+	}
+	html, body {
+		height: 200%;
+		margin: 0;
+		padding-left: 100px;
+	}
+	#map { 
+		width: 800px; 
+		height: 500px; 
+	}
+	.info { 
+		padding: 6px 8px; 
+		font: 14px/16px 'Barlow'; 
+		background: white; 
+		background: rgba(255,255,255,0.8); 
+		box-shadow: 0 0 15px rgba(0,0,0,0.2); 
+		border-radius: 5px; 
+	} 
+	.info h4 { 
+		margin: 0 0 5px; 
+		color: #777; 
+	}
+	.legend { 
+		text-align: left; 
+		line-height: 18px; 
+		color: #555; 
+	} 
+	.legend i { 
+		width: 18px; 
+		height: 18px; 
+		float: left; 
+		margin-right: 8px; 
+		opacity: 0.7; }
+	</style>
+</head>
+<body>
+    <div>
+        <h1 style="font-size: 40px;">Distribution of Male Subzone Population in Singapore</h1>
+        <h3>Khalishah Nadhirah Bte Abu Bakar (1000668)</h3>
+    </div>
+    <div id='map'></div>
+
+<script type="text/javascript" src="sgmap.js"></script>
+<script type="text/javascript">
+	// sgmap.js is a result of data binding over another javascript code
+
+	let tiles = new L.tileLayer('https://maps-{s}.onemap.sg/v3/Default/{z}/{x}/{y}.png', {
+		tileSize: 512,
+		zoomOffset: -1,
+        detectRetina: true,
+        maxZoom: 18,
+        minZoom: 11,
+        //Do not remove this attribution
+        attribution: '<img src="https://docs.onemap.sg/maps/images/oneMap64-01.png" style="height:20px;width:20px;">' +
+               'New OneMap | Map data © contributors, <a href="http://SLA.gov.sg">Singapore Land Authority</a>'
+	});
+
+    let map = new L.Map("map", {
+    center: [1.347833, 103.809357], 
+    zoom: 11,
+    maxBounds: L.latLngBounds(L.latLng(1.1, 103.5), L.latLng(1.5, 104.3))
+    })
+    .addLayer(tiles);
+
+	// control that shows state info on hover
+	var info = L.control();
+
+	info.onAdd = function (map) {
+		this._div = L.DomUtil.create('div', 'info');
+		this.update();
+		return this._div;
+	};
+
+	info.update = function (props) {
+		this._div.innerHTML = '<h4>Singapore Male Population Distribution</h4>' +  (props ?
+			'<b>' + props['Subzone Name'] + '</b><br />' + props.PopMale + ' population males'
+			: 'Hover over a state');
+	};
+
+	info.addTo(map);
+
+
+	// get color depending on population density value
+	function getColor(d) {
+		return d > 40000 ? '#800026' :
+				d > 30000  ? '#BD0026' :
+				d > 20000  ? '#E31A1C' :
+				d > 10000  ? '#FC4E2A' :
+				d > 5000   ? '#FD8D3C' :
+				d > 2000   ? '#FEB24C' :
+				d > 1000   ? '#FED976' :
+							'#FFEDA0';
+	}
+
+	function style(feature) {
+		return {
+			weight: 2,
+			opacity: 1,
+			color: 'white',
+			dashArray: '3',
+			fillOpacity: 0.8,
+			fillColor: getColor(feature.properties.PopMale)
+		};
+	}
+
+	function highlightFeature(e) {
+		var layer = e.target;
+
+		layer.setStyle({
+			weight: 5,
+			color: '#666',
+			dashArray: '',
+			fillOpacity: 0.5
+		});
+
+		if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
+			layer.bringToFront();
+		}
+
+		info.update(layer.feature.properties);
+	}
+
+	var geojson;
+
+	function resetHighlight(e) {
+		geojson.resetStyle(e.target);
+		info.update();
+	}
+
+	function zoomToFeature(e) {
+		map.fitBounds(e.target.getBounds());
+	}
+
+	function onEachFeature(feature, layer) {
+		layer.on({
+			mouseover: highlightFeature,
+			mouseout: resetHighlight,
+			click: zoomToFeature
+		});
+	}
+
+	geojson = L.geoJson(statesData, {
+		style: style,
+		onEachFeature: onEachFeature
+	}).addTo(map);
+
+	map.attributionControl.addAttribution('Population data &copy; <a href="https://www.singstat.gov.sg/publications/population/population-trends">Department of Statistics Singapore</a>');
+
+
+	var legend = L.control({position: 'bottomright'});
+
+	legend.onAdd = function (map) {
+
+		var div = L.DomUtil.create('div', 'info legend'),
+			grades = [0, 1000, 2000, 5000, 10000, 20000, 30000, 40000],
+			labels = [],
+			from, to;
+
+		for (var i = 0; i < grades.length; i++) {
+			from = grades[i];
+			to = grades[i + 1];
+
+			labels.push(
+				'<i style="background:' + getColor(from + 1) + '"></i> ' +
+				from + (to ? '&ndash;' + to : '+'));
+		}
+
+		div.innerHTML = labels.join('<br>');
+		return div;
+	};
+
+	legend.addTo(map);
+
+</script>
+</body>
+</html>
