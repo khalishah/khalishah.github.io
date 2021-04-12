@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+    <title>Assignment 5</title>
+    <meta name="author" content="Khalishah Nadhirah (1000668)">
+    <!-- Load plotly.js into the DOM -->
+	<script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+    <!-- Google fonts Second Reference-->  
+    <link href="https://fonts.googleapis.com/css?family=Barlow:100,200,300,400,500&display=swap" rel="stylesheet">
+    <style>
+    * {
+	font-family: 'Barlow', sans-serif;
+	font-weight: 500;
+	}
+    </style>
+</head>
+
+<body>
+    <div style="text-align: center;">
+        <h1>Total Estimated Expenditure for FY2021 in Singapore</h1>
+        <h3>Khalishah Nadhirah Bte Abu Bakar (1000668)</h3>
+        <p>Data retrieved from <a href='https://data.gov.sg/dataset/government-fiscal-position-annual'>data.gov.sg</a></p>
+        <p>--</p>
+        <p><i>Click on the radial treemap for the dropdown list || Hover on the radial treemap for percentage distribution</i></p>
+        <p>--</p>
+        <p><i>[Percentage are calculated relative to total estimated expenditure per parent root]</i></p>
+        <p><i>[First inner layer is the <u>government sector</u>, second layer is the <u>ministry</u> and the last outer layer is the type of <u>allocation type</u>]</i></p>
+    </div>
+    <div id='myDiv'></div>
+    <div style="text-align: center;">
+        <div style="display: inline-block; text-align: left;">
+            <p>
+                The above sunburst chart shows the FY2021 overview of the government expenditure. <br>
+                <br>It shows that majority of the total expenditure is budgetted for the <u>Social Development</u> sector, taking up almost 50% of the total expenditure. <br>
+                <br>Within the <u>Social Development</u> sector,
+                <ul>
+                    <li>The <u>Ministry of Health</u> takes up 38% of the budget allocated to the <u>Social Development</u> sector.</li>
+                    <li>Following that, the <u>Ministry of Education</u> takes around 27% of the budget allocated to the <u>Social Development</u> sector.</li>
+                    <li>Subsequently, to a highlight a few significant ones, the <u>Ministry of National Development</u> takes 11% and <br>the <u>Ministry of Social & Development</u> takes 8% of the budget allocated to the <u>Social Development</u> sector.</li> 
+                    <li>Most of the ministries within the <u>Social Development</u> sector has mostly allocated more than <br>80% of the expenditure to operating expenditure as compared to the development expenditure.</li>
+                </ul>
+                <br>The <u>Economic Development</u> sector has 24% budget share in total expenditure.
+                <ul>
+                    <li>To highlight a few, the <u>Ministry of Transport</u> takes up almost 45%, the <u>Ministry of Trade and Industry</u> takes up 29%<br>and the <u>Ministry of Manpower</u> takes up 22% of the allocated budget within the <u>Economic Development</u> sector.</li>
+                    <li>Most of the ministries within the <u>Economic Development</u> sector has mostly allocated more than <br>70% of the expenditure to operating expenditure as compared to the development expenditure.</li>
+                </ul>
+                <br>The <u>Security and External Relations</u> sector has a close 23% budget share in total expenditure.
+                <ul>
+                    <li>To highlight a few, the <u>Ministry of Defence</u> takes up the most proportion of 64% <br>and the <u>Ministry of Home Affairs</u> takes up 33% of the allocated budget within the <u>Security and External Relations</u> sector.</li>
+                    <li>Most of the ministries within the <u>Security and External Relations</u> sector has mostly allocated more than <br>80% of the expenditure to operating expenditure as compared to the development expenditure.</li>
+                </ul>
+                <br>Lastly, the <u>Government Administration</u> sector makes up the smallest budget expenditure share of 4% of total expediture.
+                <ul>
+                    <li>The <u>Ministry of Finance</u> takes up the most proportion of 64% out of the allocated budget within the <u>Government Administration</u> sector.</li>
+                    <li>Most of the ministries within the <u>Government Administration</u> sector has mostly allocated more than <br>70% of the expenditure to operating expenditure as compared to the development expenditure.</li>
+                </ul>
+            </p>
+        </div>
+    </div>
+</body>
+
+<script>
+
+// DATA IS WRANGLED AND GENERATED OVER PYTHON
+var data = [{
+  type: "sunburst",
+  ids: [
+    'Economic Development', 'Government Administration', 'Security and External Relations', 'Social Development',
+
+    'Economic Development - Info-Communications and Media Development',
+    'Economic Development - Manpower',
+    'Economic Development - Trade and Industry',
+    'Economic Development - Transport',
+    'Government Administration - Finance',
+    'Government Administration - Law',
+    'Government Administration - Organs of State',
+    "Government Administration - Prime Minister's Office",
+    'Security and External Relations - Defence',
+    'Security and External Relations - Foreign Affairs',
+    'Security and External Relations - Home Affairs',
+    'Social Development - Communications and Information',
+    'Social Development - Culture, Community and Youth',
+    'Social Development - Education', 'Social Development - Health',
+    'Social Development - Manpower',
+    'Social Development - National Development',
+    'Social Development - Social and Family Development',
+    'Social Development - Sustainability and the Environment',
+
+    'Economic Development - Info-Communications and Media Development - Development',
+    'Economic Development - Info-Communications and Media Development - Operating',
+    'Economic Development - Manpower - Development',
+    'Economic Development - Manpower - Operating',
+    'Economic Development - Trade and Industry - Development',
+    'Economic Development - Trade and Industry - Operating',
+    'Economic Development - Transport - Development',
+    'Economic Development - Transport - Operating',
+    'Government Administration - Finance - Development',
+    'Government Administration - Finance - Operating',
+    'Government Administration - Law - Development',
+    'Government Administration - Law - Operating',
+    'Government Administration - Organs of State - Development',
+    'Government Administration - Organs of State - Operating',
+    "Government Administration - Prime Minister's Office - Development",
+    "Government Administration - Prime Minister's Office - Operating",
+    'Security and External Relations - Defence - Development',
+    'Security and External Relations - Defence - Operating',
+    'Security and External Relations - Foreign Affairs - Development',
+    'Security and External Relations - Foreign Affairs - Operating',
+    'Security and External Relations - Home Affairs - Development',
+    'Security and External Relations - Home Affairs - Operating',
+    'Social Development - Communications and Information - Development',
+    'Social Development - Communications and Information - Operating',
+    'Social Development - Culture, Community and Youth - Development',
+    'Social Development - Culture, Community and Youth - Operating',
+    'Social Development - Education - Development',
+    'Social Development - Education - Operating',
+    'Social Development - Health - Development',
+    'Social Development - Health - Operating',
+    'Social Development - Manpower - Development',
+    'Social Development - Manpower - Operating',
+    'Social Development - National Development - Development',
+    'Social Development - National Development - Operating',
+    'Social Development - Social and Family Development - Development',
+    'Social Development - Social and Family Development - Operating',
+    'Social Development - Sustainability and the Environment - Development',
+    'Social Development - Sustainability and the Environment - Operating'
+  ],
+  labels: [
+    'Economic<br>Development', 'Government<br>Administration', 'Security and<br>External Relations', 'Social<br>Development',
+
+    'Info-Communications<br>and Media Development', 'Manpower',
+    'Trade and<br>Industry', 'Transport', 'Finance', 'Law',
+    'Organs of State', "Prime Minister's<br>Office", 'Defence',
+    'Foreign Affairs', 'Home Affairs',
+    'Communications and Information', 'Culture, Community<br>and Youth',
+    'Education', 'Health', 'Manpower', 'National<br>Development',
+    'Social and Family<br>Development',
+    'Sustainability and<br>the Environment',
+
+    'Development', 'Operating', 'Development', 'Operating',
+    'Development', 'Operating', 'Development', 'Operating',
+    'Development', 'Operating', 'Development', 'Operating',
+    'Development', 'Operating', 'Development', 'Operating',
+    'Development', 'Operating', 'Development', 'Operating',
+    'Development', 'Operating', 'Development', 'Operating',
+    'Development', 'Operating', 'Development', 'Operating',
+    'Development', 'Operating', 'Development', 'Operating',
+    'Development', 'Operating', 'Development', 'Operating',
+    'Development', 'Operating'
+  ],
+  hovertext: [
+    '(24.11%)', '(4.42%)', '(23.13%)', '(48.34%)',
+
+    '(3.29%)', '(22.77%)', '(29.08%)', '(44.86%)', '(45.69%)',
+    '(10.63%)', '(15.71%)', '(27.97%)', '(64.89%)', '(1.83%)',
+    '(33.27%)', '(1.27%)', '(4.59%)', '(27.53%)', '(38.09%)',
+    '(3.15%)', '(11.18%)', '(8.31%)', '(5.87%)',
+
+    '(2.71%)', '(97.29%)', '(1.74%)', '(98.26%)', '(71.4%)', '(28.6%)',
+    '(63.39%)', '(36.61%)', '(6.77%)', '(93.23%)', '(45.74%)',
+    '(54.26%)', '(14.63%)', '(85.37%)', '(23.14%)', '(76.86%)',
+    '(3.63%)', '(96.37%)', '(3.0%)', '(97.0%)', '(16.91%)', '(83.09%)',
+    '(6.2%)', '(93.8%)', '(15.76%)', '(84.24%)', '(3.89%)', '(96.11%)',
+    '(7.91%)', '(92.09%)', '(0.26%)', '(99.74%)', '(24.96%)',
+    '(75.04%)', '(2.41%)', '(97.59%)', '(36.33%)', '(63.67%)'
+  ],
+  values: [
+    24670,  4526, 23671, 49472,
+
+    812, 5617, 7175, 11066,  2068, 481, 711, 1266, 15361,
+    434, 7876, 629, 2272, 13620, 18845, 1560, 5529, 4113, 2904,
+
+    22, 790, 98, 5519, 5123, 2052, 7015, 4051,  140,
+    1928, 220, 261, 104, 607, 293, 973, 558, 14803,
+    13, 421, 1332,  6544, 39, 590,  358, 1914, 530,
+    13090, 1490, 17355, 4,  1556,  1380, 4149, 99, 4014,
+    1055, 1849
+
+  ],
+  parents: [
+    "", "", "", "", 
+    'Economic Development', 'Economic Development',
+    'Economic Development', 'Economic Development',
+    'Government Administration', 'Government Administration',
+    'Government Administration', 'Government Administration',
+    'Security and External Relations',
+    'Security and External Relations',
+    'Security and External Relations', 'Social Development',
+    'Social Development', 'Social Development', 'Social Development',
+    'Social Development', 'Social Development', 'Social Development',
+    'Social Development',
+
+    'Economic Development - Info-Communications and Media Development',
+    'Economic Development - Info-Communications and Media Development',
+    'Economic Development - Manpower',
+    'Economic Development - Manpower',
+    'Economic Development - Trade and Industry',
+    'Economic Development - Trade and Industry',
+    'Economic Development - Transport',
+    'Economic Development - Transport',
+    'Government Administration - Finance',
+    'Government Administration - Finance',
+    'Government Administration - Law',
+    'Government Administration - Law',
+    'Government Administration - Organs of State',
+    'Government Administration - Organs of State',
+    "Government Administration - Prime Minister's Office",
+    "Government Administration - Prime Minister's Office",
+    'Security and External Relations - Defence',
+    'Security and External Relations - Defence',
+    'Security and External Relations - Foreign Affairs',
+    'Security and External Relations - Foreign Affairs',
+    'Security and External Relations - Home Affairs',
+    'Security and External Relations - Home Affairs',
+    'Social Development - Communications and Information',
+    'Social Development - Communications and Information',
+    'Social Development - Culture, Community and Youth',
+    'Social Development - Culture, Community and Youth',
+    'Social Development - Education', 'Social Development - Education',
+    'Social Development - Health', 'Social Development - Health',
+    'Social Development - Manpower', 'Social Development - Manpower',
+    'Social Development - National Development',
+    'Social Development - National Development',
+    'Social Development - Social and Family Development',
+    'Social Development - Social and Family Development',
+    'Social Development - Sustainability and the Environment',
+    'Social Development - Sustainability and the Environment'
+  ],
+  outsidetextfont: {size: 20, color: "#377eb8"},
+  leaf: {opacity: 0.6},
+  branchvalues: 'total',
+  marker: {line: {width: 2}},
+  textposition: 'auto'
+}];
+
+var layout = {
+  margin: {l: 0, r: 0, b: 10, t:10},
+  sunburstcolorway:["#57B8FF","#FBB13C","#FE6847","#CFD11A"],
+  height: 800
+};
+
+var config = {responsive: true}
+
+Plotly.newPlot('myDiv', data, layout);
+
+</script>
+</html>
