@@ -242,7 +242,7 @@ var path = d3.geoPath() // path generator that will convert GeoJSON to SVG paths
   .projection(projection); // tell path generator to use albersUsa projection
 
 // Load in states data
-d3.csv("survey_cleaned_v2.csv", function(data) {
+d3.csv("survey_cleaned.csv", function(data) {
 	var dataArray = [];
 	for (var d = 0; d < data.length; d++) {
 		dataArray.push(parseFloat(data[d].mental_score))
