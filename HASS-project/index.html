@@ -244,7 +244,7 @@
             <p>
             Performs mediocrely in the variables on <i>Medical Leave</i> & <i>Negative Effects</i>. More work has to be done in the United States as a whole to ensure that workers are well taken care of.
             </p>
-            <div id="avg_components"></div>
+            <div id="avg_components" onscroll="showChart()"></div>
             <h2 style="text-align: center;">Viewing each state's Mental Health Index...</h2></div>
             <p>To better understand the performance in each state, a chloropeth map was projected. Find out each state's associated Mental Health Index by hovering over it. Additionally, you can also click on each state to see the breakdown of the Mental Health Index indicators.</p>
             <div class="frame-container">
@@ -266,8 +266,8 @@
               </p>
               <p style="text-align: center;"><i>Information & Data sources obtained from: <a href="https://mhanational.org/sites/default/files/Spotlight%202021%20-%20COVID-19%20and%20Mental%20Health.pdf">Mental Health America</a> & <a href='https://www.kaggle.com/osmi/mental-health-in-tech-survey'>Kaggle</a></i></p>
         <script>
-
-            // set the dimensions and margins of the graph
+            function showChart() {
+              // set the dimensions and margins of the graph
             var margin = {top: 10, right: 30, bottom: 40, left: 100},
                 width = 1260 - margin.left - margin.right,
                 height = 500 - margin.top - margin.bottom;
@@ -344,5 +344,7 @@
               .attr("x1", function(d) { return x(d.score); })
             
             })
+
+            }
             </script>
     </body>
