@@ -100,19 +100,16 @@
             var margin = {top: 10, right: 30, bottom: 40, left: 100},
                 width = 1260 - margin.left - margin.right,
                 height = 500 - margin.top - margin.bottom;
+
+            var forsvgw1 = width + margin.left + margin.right;
+            var forsvgh1 = height + margin.top + margin.bottom;
             
             // append the svg object to the body of the page
             var svg = d3.select("#avg_components")
             .append("svg")
-            .attr("viewBox", "0 0 " + width + margin.left + margin.right + " " + height + margin.top + margin.bottom)
+            .attr("viewBox", "0 0 " + forsvgw1 + " " + forsvgh1)
             .append("g")
-            .attr("transform", "translate(" + (width + margin.left + margin.right) / 2 + "," + (height + margin.top + margin.bottom) / 2 + ")");
-              // .append("svg")
-              //   .attr("width", width + margin.left + margin.right)
-              //   .attr("height", height + margin.top + margin.bottom)
-              // .append("g")
-              //   .attr("transform",
-              //         "translate(" + margin.left + "," + margin.top + ")");
+            .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
             
             // Parse the Data
             d3.csv("average.csv", function(data) {
