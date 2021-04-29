@@ -2,18 +2,18 @@
 <title>02.526 Data Visualisation Project</title>
 <link href="https://fonts.googleapis.com/css?family=Barlow:100,200,300,400,500&display=swap" rel="stylesheet">
 <script src="https://d3js.org/d3.v4.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <html lang="en">
     <head>
         <style>
-            iframe {
+            /* iframe {
               width: 100%;
-              height: 1000px;
+              height: 800px;
               border:0px;
-            }
+            } */
 
             h1{
                 text-align:center;
-                border: 2px solid black;
                 display: inline;
                 margin:auto;
                 position: absolute;
@@ -21,7 +21,7 @@
                 right: 36%;
                 color:white;
                 font-size:45px;
-                background-color:black;
+                background-color:#0e4238;
                 
             }
             #head_gif{
@@ -34,24 +34,130 @@
             head, p {
                 font-family: "Barlow";
                 text-align: justify;
+      
 
             }
             p, ul, #avg_components {
                 padding-left:5%;
                 padding-right:5%;
-            }
-            #one{
-                background-color:lightcyan;
+                line-height:1.5em;
             }
             * {
-                background-color:lightcyan;
+                background-color:blanchedalmond;
                 font-family: "Barlow";
             }
+            .large{
+                counter-reset: list-counter;
+                list-style: none;
+                float:left;
+            }
+            .large li{
+                margin: 1.5em 0;
+                line-height: 1em
+            }
+            .large li:before{
+                content: counter(list-counter);
+                counter-increment: list-counter;
+                color:#666;
+                font: bold;
+                font-size: 2em;
+                margin-right: .5em;
+                background-size:cover;
+            }
+            #space {
+            height:450px;
+            width:100%;
+            }
+
+            .container {
+              text-align:center;
+              background-image:url('original_2.gif');
+              background-position: center;
+              background-size: cover;
+              /* height:auto; */
+              padding-top: 56.25%;
+              width:100%;
+              position: relative;
+            }
+            .second_container {
+              background-image:url('original_3.gif');
+              background-position: center;
+              background-size: cover;
+              padding-top: 56.25%;
+              width:100%;
+              padding-bottom:40px;
+              position: relative;
+              max-height:200px;
+            }
+
+            table {
+              border: 1px solid #ccc;
+              width: 80%;
+              table-layout: fixed;
+               overflow: hidden; 
+              color:black;
+              position: absolute;
+              margin-top:-42%;
+              margin-bottom:35%;
+              margin-right: 20%;
+              margin-left: 10%;
+              border: 1px;
+            }
+
+            th,
+            td {
+              padding: 15px;
+              background-color: rgba(201, 76, 76, 0.3);
+            }
+
+            td:hover {
+              font-style:italic;
+              color:black;
+            }
+
+            .mycircle:hover {
+              stroke:15px black;
+            }
+
+            img {
+                max-width:70%;
+        }
+        #intervention_title {
+                display: inline;
+                margin:auto;
+                position: absolute;
+                top: 35%;
+                right: 42.5%;
+                color:white;
+                font-size:45px;
+                background-color:#0e4238;
+                
+            }
+        .future_work_li {
+                padding-left:5%;
+                padding-right:5%;
+                line-height:1.5em;
+        }
+        .frame-container {
+          position: relative;
+          overflow: hidden;
+          width: 100%;
+          padding-top: 56.25%;
+          background-color:blanchedalmond;
+        }
+
+        .responsive-iframe {
+          position: absolute;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          right: 0;
+          width: 100%;
+          height: 100%;
+        }
         </style>
         <div id="head_gif">
-        <center><h1>Mental Wellness in USA</h1></center>
-
-      </div>
+        <h1>Mental Wellness in USA</h1></div>
         
     </head>
     <body>
@@ -67,10 +173,11 @@
             exacerbated existing inequities and injustices faced primarily by black, indigenous, and people of color (BIPOC)
             in the United States. Any of these factors by themselves can negatively affect the mental health of individuals,
             but in combination they have created a nationwide mental health crisis. (Mental Health America, 2021)</p>
-            <center><h2>Assessing USA's Mental Health Index</h2></center></div>
-            <p>
-                Therefore, to better understand mental health in the United states, we have come up with six indicators to assess mental health scores on.
-                <ul>
+            <h2 style="text-align: center;">Assessing USA's Mental Health Index</h2>
+            <div id="space"> 
+              <p>
+                Therefore, to better understand mental health in the United states, we have come up with six indicators to assess mental health scores on.</p>
+                <ul class="large">
                     <li><b>Family MH History</b>: Do you have a family history of mental illness?</li>
   
                     <li><b>Finding Treatment</b>: Have you sought treatment for a mental health condition?</li>
@@ -85,15 +192,85 @@
   
                     <li><b>Talk to Supervisor</b>: Would you be willing to discuss a mental health issue with your direct supervisor(s)?</li>
                     </ul>
-            </p>
-            <center><h2>USA's Mental Health Indicators on average...</h2></center></div>
+            </div>
+            <h2 style="text-align: center;">The Best & Worst Performing States</h2>
+            <div class="container"></div>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Category</th>
+                    <th>Best Performing State(s)</th>
+                    <th>Worst Performing State(s)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Talk to Coworkers</td>
+                    <td>South Carolina at 0.83</td>
+                    <td>Kentucky at 0.17</td>
+                  </tr>
+                  <tr>
+                    <td>Family MH History
+                     </td>
+                    <td>New Hampshire, North Carolina & South Carolina at 0.67</td>
+                    <td>Ohio at 0.23</td>
+                  </tr>
+                  <tr>
+                    <td> Medical Leave
+                     </td>
+                    <td>South Carolina at 0.67</td>
+                    <td>New Jersey at 0.1</td>
+                  </tr>
+                  <tr>
+                    <td> Negative Effects
+                      </td>
+                    <td>Arizona at 0.1</td>
+                    <td>Wyoming at 0.75</td>
+                  </tr>
+                  <tr>
+                    <td>Talk to Supervisor
+                      </td>
+                    <td>Connecticut, Massachusetts, Minnesota, Nebraska, Oklahoma & Wyoming at 0.75</td>
+                    <td>Arizona at 0.3</td>
+                  </tr>
+                  <tr>
+                    <td>Finding Treatment
+                      </td>
+                    <td>Arizona, Idaho, Louisiana, Mississippi & Vermont at 1</td>
+                    <td>Kentucky at 0.33</td>
+                  </tr><tr>
+                    <td>Work Interference
+                      </td>
+                    <td>Idaho, Louisiana, Maine, Vermont & West Virginia at 1</td>
+                    <td>Kentucky & Mississippi at 0.33</td>
+                  </tr>
+                </tbody>
+              </table>
+      
+            <h2 style="text-align: center;">USA's Mental Health Indicators on average...</h2></div>
             <p>
             Performs mediocrely in the variables on <i>Medical Leave</i> & <i>Negative Effects</i>. More work has to be done in the United States as a whole to ensure that workers are well taken care of.
             </p>
             <div id="avg_components"></div>
-            <center><h2>Viewing each state's Mental Health performance...</h2></center></div>
-            <p>To better understand the performance in each state, a chloropeth map was projected. You can hover under each state to see their associated Mental Health Index. Additionally, you can also click on each state to see the breakdown of the Mental Health Index indicators.</p>
-            <iframe src="chart.html" scrolling="no"  name="myFrame"></iframe>
+            <h2 style="text-align: center;">Viewing each state's Mental Health Index...</h2></div>
+            <p>To better understand the performance in each state, a chloropeth map was projected. Find out each state's associated Mental Health Index by hovering over it. Additionally, you can also click on each state to see the breakdown of the Mental Health Index indicators.</p>
+            <div class="frame-container">
+              <iframe src="chart.html" scrolling="no"  name="myFrame" class="responsive-iframe"></iframe>
+            </div>
+
+            <div id="adjust_height"><div class="second_container"><h2 style="text-align: center;" id="intervention_title">Future Work</h2></div></div>
+            
+            <h2 style="text-align: center;">Recommendations</h2>
+              <p>Based on the Protection Motivation Theory, we suggest that states scoring low on mental wellness may consider mental health interventions to strengthen mental wellness. 
+                States could adopt an approach in reducing barriers to entry and urging others to seek help based on their fear appeals would be a convenient chatbot
+              that allows communication anytime, anywhere.</p>
+              <center><img src="mentalwell.svg"></center>
+              <h2 style="text-align: center;">Moving Forward</h2>
+              <p><li class="future_work_li">We recommend that future work could consider conducting a detailed qualitative analysis of the mental health 
+                parameters of each state, and the parameters that are not studied. Different types of intervention would also have to be 
+                studied in the future.</li>
+                <li class="future_work_li">Future work could also incorporate libraries like SASS, for CSS animations.</li>
+              </p>
         <script>
 
             // set the dimensions and margins of the graph
